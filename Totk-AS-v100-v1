@@ -4,15 +4,11 @@ _project:
   authors:
     - DinoTechSR
   contributors:
-    - savage13
-    - Aergyl
-    - Ana
-    - BloomPrism
-    - BounceSR
-  description: 100% Route for v1.0.0
-  name: 100% Route for v1.0.0
-  url: "https://restite.org/notceler-totk/?link=github/totk100/main/experimental.yaml"
-  version: 0.1
+    - savageI3
+    - Xdri_33s
+  description: All Shrines for v1.0.0
+  name: v1.0.0 All Shrines v1
+  url: "https://restite.org/notceler-totk/?github=dinotechsr/Totk/main/Totk-AS-v100-v1" 
   
   #STICK means to use a Zonai Storage Stick Clip in the shrine
   #PROV means proving grounds
