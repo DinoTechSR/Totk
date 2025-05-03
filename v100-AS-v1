@@ -3,9 +3,9 @@ _config:
 _project:
   authors:
     - DinoTechSR
+    - Xdri33s
   contributors:
     - savageI3
-    - Xdri_33s
   description: All Shrines for v1.0.0
   name: v1.0.0 All Shrines v1
   url: "https://restite.org/notceler-totk/?github=dinotechsr/Totk/main/Totk-AS-v100-v1" 
@@ -74,6 +74,7 @@ _route:
     - _Warp::ROA
     - Bomb jump up the ledge and run to/enter Recall
     - _Shrine::Nachoyah
+    - Scan Revali amiibos for fleet lotus
     - _Warp::Shrine::Ukouh
     - _Location<Temple of Time>:
        coord: [453.51, 1556.17, -849.75]
@@ -95,10 +96,7 @@ _route:
        notes: Get Zonaite Sword
   
   - Farosh:
-    - _Warp::Shrine::Nachoyah
-    - Board Slide to Farosh
-    - _Dispenser::S06:
-       notes: Get fans
+    - _Warp::Shrine::In-isa
     - SW PRAF to Farosh
     - _Material<Farosh Horn>:
        coord: [-925,150,-2386.501347708895]
@@ -110,8 +108,6 @@ _route:
     - N> Wing to autobuild
     - Damage down the Rusty Broadsword with a rocket (Badly Damaged + 2)
     - _Special::StartPos Depths<Autobuild>
-    - Perform .link([Recursed Jetpack] https://docs.google.com/presentation/d/1xl_yAa2wLSV68cfRu6mfQHc90ALUATcG_oeM9y_4gXM/edit?usp=sharing)
-
   - Dragonhead:
     - _Warp::Shrine::Nachoyah
     - <E
@@ -159,6 +155,8 @@ _route:
     - _Npc<Purah>:
        coord: [-288.91, 131.51, 142.37]
        notes: Get Paraglider
+    - Perform .link([Recursed Jetpack] https://docs.google.com/presentation/d/1xl_yAa2wLSV68cfRu6mfQHc90ALUATcG_oeM9y_4gXM/edit?usp=sharing)
+
   
   - Hyrule Field:
     - Dupe 30 Fairies, 10 Farosh Horns, 5 golden apples, and 30 Large Zonai Charges
