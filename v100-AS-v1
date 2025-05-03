@@ -86,15 +86,9 @@ _route:
        coord: [453.76, 1579.32, -636.17]
   
   - Rockets:
-    - Static Zuggle 8 MNFs
     - _Item<Rocket x3>:
        coord: [891.57, 118.09, -541.65]
-    - SE PRAF to wizzrobe
-    - Equip MNF
-    - _Enemy<Wizzrobe>:
-       coord: [1399.15, 118.84, -307.81]
-       notes: Get Zonaite Sword
-  
+
   - Farosh:
     - _Warp::Shrine::In-isa
     - SW PRAF to Farosh
@@ -125,24 +119,26 @@ _route:
        comment: Blessing
  
   - Paraglider:
-    - <N
+    - <<N
+    - _Enemy<Captain Construct>:
+       coord: [902,150,-2722]
+       notes: obtain zonaite sword
+    - <E
     - _Shrine::Utojis:
        comment: throw spear through ring
-    - Dzuggle 9 MNFs
+    - WST + Dzuggle 9 MNFs
     - <S
-    - _Enemy<Lynel>:
-       coord: [1464.46, 311.94, -3036.49]
-       notes: Stick Clip down and wing to lynel
-    - Pick up Saber Horn, Bow and Arrows, and the Royal Claymore
-    - _Warp::Shrine::Ukouh
-    - Make a Cart Guster (Cart + Royal Claymore)
-    - <<N Cart Slide to Lookout Landing
+    - Make a Cart Guster (Cart + rusty Claymore)
+    - <<N
+    - _Tear::G03
+    - <<NW Cart Slide to Lookout Landing
     - _Npc<Purah>:
        coord: [-248.72, 126.36, 148.83]
     - <N
     - _Npc<Hoz>:
        coord: [-334.93, 238.96, 845.94]
     - NE
+    - Break Crates for arrows
     - _Equipment::Shield<Hylian Shield>:
        coord: [-154, 141.78, 1157.37]
        notes: Dupe 4 Shields
@@ -161,6 +157,7 @@ _route:
   - Hyrule Field:
     - Dupe 30 Fairies, 10 Farosh Horns, 5 golden apples, and 30 Large Zonai Charges
     - _Shop::GeneralStore:
+       line-color: aquamarine
        notes: Sell 3 Farosh horns and buy all arrows
     - .S 
     - _Shrine::Jiosin
@@ -297,8 +294,11 @@ _route:
     - _Shrine::Yansamin:
        comment: PROV
        notes: Use Pocket Rocket in shrine
+  
   - Necluda:
     - Clip Down
+    - _Equipment::Bow<Lynel Bow>:
+       coord: [2326,150,-2087]
     - .S
     - _Shrine::Tokiy
     - Ascend Out
@@ -488,6 +488,9 @@ _route:
     - NW Slide to Jonsau
     - _Shrine::Jonsau
     - .E 
+    - _Material<Purple Rupee>:
+       coord: [2208.95, 177.71, 109.31]
+    - break crates around rupees for arrows
     - _Shrine::Maoikes
     - E Ascend out
     - _Shrine::Joniu::Start
