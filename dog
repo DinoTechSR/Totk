@@ -1,1 +1,128 @@
 #dog treasures speedrun
+---
+_config:
+_project:
+  authors:
+    - DinoTechSR
+  contributors:
+    - savageI3
+  description: All Shrines for v1.0.0
+  name: v1.0.0 All Shrines v1
+  url: "https://restite.org/notceler-totk/?github=dinotechsr/Totk/main/Totk-AS-v100-v1" 
+  
+  # for every dog, YB dupe 4 on the ground with a shield
+_route:
+  - Overview:
+    - .link([What Does N< Mean?] https://docs.google.com/drawings/d/1M4rwnU_A8izpY-yLnVToBowt4p-td5o6LXjBdohlwNw/edit?usp=sharing)
+  - Intro:
+    - Perform Intro Clip
+  - Great Sky Island:
+    - _Special::StartPos Sky<Room of Awakening>:
+       comment:
+    - _Equipment::Weapon<Decayed Master Sword>:
+    - Perform Cog Skip .link([(Guide)] https://www.youtube.com/watch?v=U64qbYpZOns)
+    - _Chest<Wing x3>:
+       coord: [379.75,1500,-1698.75]
+       notes: dupe 22 wings
+       line-color: white
+    - Title Card:
+       coord: [433.5,1500,-1693.75]
+    - _Npc<Steward Construct>:
+       coord: [449.86, 1640.83, -1310.45]
+       comment: Purah Pad
+    - Wing to ToT, defeat construct with wings, and activate the button; do not touch the ground
+    - _Location::TempleofTime:
+       hide-icon-on-map: true
+    - _Enemy<Soldier Construct>:
+       coord: [453.3, 1552.01, -897.25]
+       notes: Pick up the Broadsword and Shield
+    - _Npc<Temple of Time Door>:
+       coord: [453.51, 1556.17, -849.75]
+       comment: The Closed Door
+    - _Warp::Location<Up Top>:
+       coord: [426.5,1500,-1681.25]
+    - _Shrine::Gutanbac:
+       notes: dzuggle 8 bows and 2 weapons, perform arrow smuggle
+       comment: grab zonai charge
+    - _Cave::Bottomless01
+    - _Equipment::Shield<Flame Emitter Shield>:
+       coord: [745.41, 1650.87, -1368.7]
+    - _Material<Bomb Flower>:
+       coord: [744.35, 1647.04, -1344.69]
+    - Perform battery throw
+    - _Shrine::In-isa:
+       notes: Grab Rusty Claymore, dupe 3 bombs shields, 11 bombs, and 5 zonai charges
+    - _Shrine::Ukouh
+    - _Location<Temple of Time>:
+       coord: [453.51, 1556.17, -849.75]
+    - _Location<4-Heart Door>:
+       coord: [453.51, 1573.47, -760.25]
+       comment: Attempt to open
+    - _Warp::ROA
+    - Bomb jump up the ledge and run to/enter Recall
+    - _Shrine::Nachoyah
+    - Scan bokobloin amiibo and pick up 4 meat
+    - Scan Daruk amiibo and get a ruby or topaz. dupe 20
+    - _Warp::Shrine::Ukouh
+    - _Location<Temple of Time>:
+       coord: [453.51, 1556.17, -849.75]
+    - _GoddessStatue::TempleofTime
+    - _Location<4-Heart Door>:
+       coord: [453.51, 1573.47, -760.25]
+       comment: Open  
+    - _Location<Deposit the Decayed Master Sword>:
+       coord: [453.76, 1579.32, -636.17]
+    - Throw your weapon and pick up the dzuggled ones
+    - Scan revali amiibo and pick up arrows
+  
+  - Setup:
+    - _Warp::Shrine::Nachoyah
+    - _Equipment::Weapon<board>:
+       coord: [479.65, 1549.4, -1690.07]
+    - board slide to dragonhead
+    - _Dispenser::S02:
+       notes: pick up carts
+    - Fuse a cart to the rusty claymore to make a board guster
+    - perform ODZ clay
+  
+  - Faron:
+    - _Npc<Dog>: 
+       coord: [529.89, 153.07, -3479.93]
+       notes: YB dupe 4 meat on the ground and let the dog eat it. this will be the method for the rest of the run
+    - _Chest<Dog Treasure 1>:
+       coord: [546,150,-3382]
+    - _Chest<Dog Treasure 2>:
+       coord: [1423.09, 183.43, -3488.75]
+       notes: in cave on cliff. bomb the rocks
+    - _Enemy<Monster Forces>:
+       coord: [2941.513461946064,150,-3509.6163756886635]
+       notes: use rubies to kill monster forces
+    - _Npc<Dog>:
+       coord: [2840.22, 106.81, -3413.99]
+    
+       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
