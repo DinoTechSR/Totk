@@ -145,6 +145,10 @@ _route:
        comment: Blessing
  
   - Paraglider:
+    - NE
+    - _Item<Stone Slab>:
+       coord: [1329.79, 195.26, -3252.81]
+       notes: fuse to claymore
     - <<N
     - _Enemy<Captain Construct>:
        coord: [902,150,-2722]
@@ -157,7 +161,6 @@ _route:
        comment: throw spear through ring
     - WST + Dzuggle 9 MNFs
     - <S
-    - Make a Cart Guster (Cart + rusty Claymore)
     - <<N
     - _Tear::G03
     
