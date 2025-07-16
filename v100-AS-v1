@@ -85,17 +85,59 @@ _route:
     - _Location<Deposit the Decayed Master Sword>:
        coord: [453.76, 1579.32, -636.17]
   
-  - Rockets:
-    - _Item<Rocket x3>:
+  - Paraglider:
+    - Dive down to surface east
+    - _Material<Splash Fruit x3>:
+       coord: [884.24, 116.18, -543.12]
+    - _Chest<Rocket x3>:
        coord: [891.57, 118.09, -541.65]
+    - Dupe to 12 Rockets (along with Wings)
+    - PRAF (new shield) to Lookout Landing
+    - _Place::LookoutLanding:
+       hide-icon-on-map: true
+    - _Npc<Josha>:
+       coord: [-238.97, 132.32, 147.92]
+       comment: To the Kingdom of Hyrule
+    - PRAF to shrine; activate but don't enter
+    - _Location::HyruleCastleTownRuins:
+       hide-icon-on-map: true
+    - _Location::CentralSquare:
+       hide-icon-on-map: true
+    - _Shrine<Kyononis (activate)>:
+       coord: [-205.15, 123, 451.47]
+    - PRAF (new shield) to Hoz
+    - _Location::FirstGatehouse:
+       hide-icon-on-map: true
+    - _Npc<Hoz>:
+       coord: [-334.93, 238.96, 845.94]
+       comment: Crisis at Hyrule Castle
+    - Wing to Docks, run through the tunnel, bomb the switch, and get the Hylian Shield:
+       notes: On the Wing, fuse a Rocket to the Broadsword and damage down to 1-Durability for WST (2 hits after the "Badly Damaged" message)
+    - _Location::Docks:
+       hide-icon-on-map: true
+    - _Equipment::Shield<Hylian Shield>:
+       coord: [-154, 141.78, 1157.37] 
+    - Dupe to 4 Hylian Shields; keep one at Full-Durability
+    - Break crates for at least 5 arrows    
+    - Fuse a Barrel to the Broadsword
+    - WST Broadsword onto MNF
+    - _Shrine::Serutabomac
+    - _Warp::Shrine::Kyononis:
+       comment: WARP
+    - PRAF back to LL and receive the Paraglider. Use the Broadsword as the rocket holder; do not swing it or it will break.
+    - _Tower::LookoutLanding:
+       comment: Launch from the tower
   
-  - Dragonhead:
-    - _Warp::Shrine::Nachoyah
-    - <E
-    - _Material<Large Zonai Charge>:
-       coord: [501.28, 1893.86, -1613.06]
+  - UPR:
+    - _Warp::Shrine::Gutanbac
+    - .link([Perform UPR] https://docs.google.com/presentation/d/14M4fUh2k582GVtFAb3VmZmG2oJg9q-ATHMdQa80ErYI/edit?usp=sharing)
+    - _Chest::ArchaicWarmGreaves:
+       notes: Grab Zonai Charge next to it in construct corpse
+ 
+  - DragonHead:
     - _Material<Fairy>:
        coord: [909.74, 666.88, -2122.8]
+       level: sky
        notes: dupe 10 fairies
     - _Dispenser::S02:
        notes: Dupe 160 Sticks, 120 Carts, and 40 Rockets
@@ -118,30 +160,10 @@ _route:
     - Make a Cart Guster (Cart + rusty Claymore)
     - <<N
     - _Tear::G03
-    - <<NW Cart Slide to Lookout Landing
-    - _Npc<Purah>:
-       coord: [-248.72, 126.36, 148.83]
-    - <N
-    - _Npc<Hoz>:
-       coord: [-334.93, 238.96, 845.94]
-    - NE
-    - Break Crates for arrows
-    - _Equipment::Shield<Hylian Shield>:
-       coord: [-154, 141.78, 1157.37]
-       notes: Dupe 4 Shields
-    - .E
-    - _Shrine::Serutabomac
-    - S. Slide to Kyononis
-    - _Shrine::Kyononis:
-       comment: STICK
-    - S>>
-    - _Npc<Purah>:
-       coord: [-288.91, 131.51, 142.37]
-       notes: Get Paraglider
-    - Perform .link([Recursed Jetpack] https://docs.google.com/presentation/d/1xl_yAa2wLSV68cfRu6mfQHc90ALUATcG_oeM9y_4gXM/edit?usp=sharing)
-
-  
+    
   - Hyrule Field:
+    - _Warp::Tower::LookoutLanding
+    - Perform .link([Recursed Jetpack] https://docs.google.com/presentation/d/1xl_yAa2wLSV68cfRu6mfQHc90ALUATcG_oeM9y_4gXM/edit?usp=sharing)
     - Dupe 30 Fairies, 10 Farosh Horns, 5 golden apples, and 30 Large Zonai Charges
     - _Shrine::Yamiyo:
        comment: STICK
