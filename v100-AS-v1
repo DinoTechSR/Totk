@@ -107,6 +107,9 @@ _route:
     - _Enemy<Captain Construct>:
        coord: [902,150,-2722]
        notes: obtain zonaite sword
+    - NE 
+    - _Material<Fleet Lotus Seeds>:
+       coord: [960.64, 113.04, -2544.79]
     - <E
     - _Shrine::Utojis:
        comment: throw spear through ring
@@ -183,94 +186,7 @@ _route:
   
   - Autobuild:
     - _Special::StartPos Depths<Autobuild>
-  
-  - Hyrule Field Sky:
-    - _Warp::Shrine::Riogok
-    - GAS Launch up to Jinodok
-    - _Shrine::Jinodok::Start:
-       level: Sky
-    - _Shrine::Jinodok
-    - _Shrine::Rakashog:
-       comment: STICK
-  - Satori Mountain:
-    - Drop Down
-    - _Shrine::Rakakudaj::Start
-    - _Shrine::Rakakudaj
-    - _Shrine::Suariwak
-    - _Shrine::Turakamik
-    - _Shrine::Rotsumamu
-    - _Shrine::Usazum::Start
-    - _Shrine::Usazum
-    - _Shrine::Sonapan  
-     
-  - Southern Sky:
-    - _Warp::Shrine::Joku-u:
-       level: Sky
-       line-color: lightgreen
-    - Ascend out
-    - NW Clip into Joku Usin (above)
-    - _Shrine::Joku-usin:
-       comment: PROV
-       notes: Dont Zuggle
-    - W>> Slide to En-oma Crystal
-    - _Shrine::En-oma::Start
-  
-  - Gerudo Highlands:
-    - _Shrine::En-oma
-    - _Warp::Shrine::Joku-u
-    - <<S
-    - _Shrine::Joju-u-u
-    - W> Slide to Utsushok
-    - _Shrine::Utsushok:
-       comment: STICK
-    - <S
-    - _Npc<White Horse>:
-       coord: [798.5,150,-3720.142857142857]
-       notes: use stamina food
-    - Ride Horse to the Crystal
-    - _Shrine::Ishokin::Start
-    - _Shrine::Ishokin
-    - _Shrine::Kitawak
-    - GAS launch up to Siyamotsus
-    - _Shrine::Siyamotsus
-    - _Shrine::Motsusis
-    - _Shrine::Siwakama
-    - Clip Down to Chichim
-    - _Shrine::Chichim
-    - _Shrine::Mayatat
-    - _Shrine::Soryotanog
-    - _Shrine::Karahatag
-    - _Shrine::Irasak
-    - _Shrine::Miryotanog:
-       comment: PROV
-       notes: Use Pocket Rocket in Shrine
-    - _Shrine::Kudanisar
-    - _Shrine::Mayamats
-    - _Shrine::Otutsum
-    - _Shrine::Gasas:
-       comment: STICK but very difficult
-    - _Shrine::Turakawak
- 
-  - Tabantha Sky:  
-    - GAS Launch up to Starview Island Sphere
-    - Use Dazzlefruit to enter Mayasiar
-    - _Shrine::Mayasiar
-    - N.
-    - _Shrine::Ganos::Start
-    - <S
-    - _Shrine::Ganos
-    - <<N Activate Panel on Lightcast Island
-    - _Shrine::Ga-ahisas:
-       comment: Blessing
- 
-  - Tabantha:    
-    - W> Clip down to Gisa Crater
-    - Shrine::Ikatak::Start
-    - _Shrine::Ikatak
-    - E>>
-    - _Shrine::Iun-orok:
-       comment: STICK in bounds
- 
+    
   - Zonaite Forge:
     - _Warp::Shrine::Makasura:
        level: Sky
@@ -440,11 +356,101 @@ _route:
     - <W Ascend out and go into waterfall
     - _Shrine::O-ogim::Start
     - _Shrine::O-ogim
+ 
+ 
+  - Hyrule Field Sky:
+    - _Warp::Shrine::Riogok
+    - GAS Launch up to Jinodok
+    - _Shrine::Jinodok::Start:
+       level: Sky
+    - _Shrine::Jinodok
+    - _Shrine::Rakashog:
+       comment: STICK
+       
+  - Satori Mountain:
+    - Drop Down
+    - _Shrine::Rakakudaj::Start
+    - _Shrine::Rakakudaj
+    - _Shrine::Suariwak
+    - _Shrine::Turakamik
+    - _Shrine::Rotsumamu
+    - _Shrine::Usazum::Start
+    - _Shrine::Usazum
+    - _Shrine::Sonapan  
+     
+  - Southern Sky:
+    - _Warp::Shrine::Joku-u:
+       level: Sky
+       line-color: lightgreen
+    - Ascend out
+    - NW Clip into Joku Usin (above)
+    - _Shrine::Joku-usin:
+       comment: PROV
+       notes: Dont Zuggle
+    - W>> Slide to En-oma Crystal
+    - _Shrine::En-oma::Start
+  
+  - Gerudo Highlands:
+    - _Shrine::En-oma
+    - _Warp::Shrine::Joku-u
+    - <<S
+    - _Shrine::Joju-u-u
+    - W> Slide to Utsushok
+    - _Shrine::Utsushok:
+       comment: STICK
+    - <S
+    - _Npc<White Horse>:
+       coord: [798.5,150,-3720.142857142857]
+       notes: use stamina food
+    - Ride Horse to the Crystal
+    - _Shrine::Ishokin::Start
+    - _Shrine::Ishokin
+    - _Shrine::Kitawak
+    - GAS launch up to Siyamotsus
+    - _Shrine::Siyamotsus
+    - _Shrine::Motsusis
+    - _Shrine::Siwakama
+    - Clip Down to Chichim
+    - _Shrine::Chichim
+    - _Shrine::Mayatat
+    - _Shrine::Soryotanog
+    - _Shrine::Karahatag
+    - _Shrine::Irasak
+    - _Shrine::Miryotanog:
+       comment: PROV
+       notes: Use Pocket Rocket in Shrine
+    - _Shrine::Kudanisar
+    - _Shrine::Mayamats
+    - _Shrine::Otutsum
+    - _Shrine::Gasas:
+       comment: STICK but very difficult
+    - _Shrine::Turakawak
+ 
+  - Tabantha Sky:  
+    - GAS Launch up to Starview Island Sphere
+    - Use Dazzlefruit to enter Mayasiar
+    - _Shrine::Mayasiar
+    - N.
+    - _Shrine::Ganos::Start
+    - <S
+    - _Shrine::Ganos
+    - <<N Activate Panel on Lightcast Island
+    - _Shrine::Ga-ahisas:
+       comment: Blessing
+ 
+  - Tabantha:    
+    - W> Clip down to Gisa Crater
+    - _Shrine::Ikatak::Start
+    - _Shrine::Ikatak
+    - E>>
+    - _Shrine::Iun-orok:
+       comment: STICK in bounds
+ 
   
   - Akkala Sky:
     - _Warp::Shrine::Ekochiu:
        level: Sky
-    - E. GASD Launch to Kadaunar
+    - E. GAS Launch to Kadaunar
     - _Shrine::Kadaunar
     - E>> Slide to Jirutagumac
     - _Shrine::Jirutagumac
