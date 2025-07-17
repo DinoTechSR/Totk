@@ -19,6 +19,7 @@ _project:
   # Directionals are combined with other commands at the very beginning (always capitalized)
 _route:
   - Overview:
+    - .link([Splits File] https://drive.google.com/file/d/12B3St_wRDzUDEToS6LiQA1DKCAd94zoe/view?usp=drive_link)
     - .link([What Does N< Mean?] https://docs.google.com/drawings/d/1M4rwnU_A8izpY-yLnVToBowt4p-td5o6LXjBdohlwNw/edit?usp=sharing)
   - Intro:
     - Perform Intro Clip
@@ -168,6 +169,8 @@ _route:
     - _Warp::Tower::LookoutLanding
     - Perform .link([Recursed Jetpack] https://docs.google.com/presentation/d/1xl_yAa2wLSV68cfRu6mfQHc90ALUATcG_oeM9y_4gXM/edit?usp=sharing)
     - Dupe 30 Fairies, 10 Farosh Horns, 5 golden apples, and 30 Large Zonai Charges
+    - Clip down to the depths, and retrieve a Ghoma rock:
+       notes: beat colgera, drop swap shield, fuse ghoma rock, unequip shield, and zuggle both shields to LL
     - _Shrine::Yamiyo:
        comment: STICK
     - _Material<Endura Carrot>:
