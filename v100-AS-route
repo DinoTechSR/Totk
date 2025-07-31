@@ -136,7 +136,9 @@ _route:
     - _Chest::ArchaicWarmGreaves:
        notes: Grab Zonai Charge next to it in construct corpse
        level: Sky
-
+    - _Material<Fairy>:
+       coord: [909.74, 666.88, -2122.8]
+       notes: dupe 10 fairies
  
  
   - Dragonhead Surface:
@@ -144,10 +146,6 @@ _route:
     - _Material<Golden Apple>:
        coord: [900.73, 134.81, -1939.65]
     - _Shrine::Jiukoum
-    - Rocket up to Fairy in the Sky
-    - _Material<Fairy>:
-       coord: [909.74, 666.88, -2122.8]
-       notes: dupe 10 fairies
     - _Shrine::Utojis:
        comment: throw spear through ring
     - WST + Dzuggle 9 MNFs
@@ -160,6 +158,8 @@ _route:
     - _Item<Stone Slab>:
        coord: [1329.79, 195.26, -3252.81]
        notes: fuse to claymore
+    - Perform Ghost Fuse:
+       notes: drop UPR shield equip any other shield. overload drop weapon, fuse to shield, drop fuse material, fuse to weapon twice (quickly. can repeat). swap weapon
 
   - DragonHead:
     - _Dispenser::S02:
