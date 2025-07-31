@@ -194,6 +194,21 @@ _route:
        notes: Use Pocket Rocket in Shrine
     - _Shrine::Tukarok
     - _Shrine::Morok
+    - _Shrine::Tajikats
+    - _Shrine::Teniten:
+       comment: STICK
+    - _Shrine::Kamizun:
+       comment: PROV
+    - _Shrine::Susub
+    - _Shrine::En-oma::Start:
+        notes: In the Sky
+    - _Shrine::En-oma
+    - Clip down to the Depths
+  - Autobuild:
+    - _Special::StartPos Depths<Autobuild>
+ 
+  - Kakariko:
+    - _Warp::Shrine::Morok
     - _Shrine::Makasura
     - _Dispenser::G02
     - Vertical Cart Slide to Josiu
@@ -236,20 +251,6 @@ _route:
     - <S Slide to Eventide Island and Clip into Marari-in
     - _Shrine::Marari-in
     
-  - Hyrule Field:
-    - _Warp::Shrine::Morok
-    - _Shrine::Tajikats
-    - _Shrine::Teniten:
-       comment: STICK
-    - _Shrine::Kamizun:
-       comment: PROV
-    - _Shrine::Susub
-    - _Shrine::En-oma::Start:
-        notes: In the Sky
-    - _Shrine::En-oma
-    - Clip down to the Depths
-  - Autobuild:
-    - _Special::StartPos Depths<Autobuild>
  
   - Hyrule Field 2:
     - _Warp::Tower::LookoutLanding
