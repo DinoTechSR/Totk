@@ -134,7 +134,7 @@ _route:
     - _Warp::Shrine::Gutanbac
     - .link([Perform UPR] https://docs.google.com/presentation/d/14M4fUh2k582GVtFAb3VmZmG2oJg9q-ATHMdQa80ErYI/edit?usp=sharing)
     - _Chest::ArchaicWarmGreaves:
-       notes: Grab Zonai Charge next to it in construct corpse
+       comment: Equip
        level: Sky
     - _Material<Fairy>:
        coord: [909.74, 666.88, -2122.8]
@@ -148,10 +148,11 @@ _route:
     - _Shrine::Jiukoum
     - _Shrine::Utojis:
        comment: throw spear through ring
+       notes: grab LZC from shrine chest. Dupe 10
     - WST + Dzuggle 9 MNFs
     - _Material<Topaz>:
        coord: [1516.64, 310.19, -2596.76]
-       notes: in wooden chest. dupe 20
+       comment: in wooden chest
     - _Enemy<Lynel>:
        coord: [1464.46, 311.94, -3036.49]
        notes: Sort Dupe bow. Grab arrows, claymore, and Saber Horn
@@ -168,9 +169,8 @@ _route:
        comment: Blessing
     
   - Central:
-    - _Warp::Tower::LookoutLanding
-    - Perform .link([Recursed Jetpack] https://docs.google.com/presentation/d/1xl_yAa2wLSV68cfRu6mfQHc90ALUATcG_oeM9y_4gXM/edit?usp=sharing)
-    - Dupe 30 Fairies, 10 Farosh Horns, 5 golden apples, and 30 Large Zonai Charges
+    - _Warp::Tower::LookoutLanding  
+    - Dupe 70 Fairies, 5 golden apples, 35 topaz
     - Clip down to the depths, and retrieve a Ghoma rock:
        notes: beat colgera, drop swap shield, fuse ghoma rock, unequip shield, and zuggle both shields to LL
     - N
