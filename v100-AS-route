@@ -27,7 +27,7 @@ _route:
   - Great Sky Island:
     - _Special::StartPos Sky<Room of Awakening>:
        comment:
-    - _Equipment::Weapon<Decayed Master Sword>:
+    - _Equipment::Weapon<Decayed Master Sword>
     - Perform Cog Skip .link([(Guide)] https://www.youtube.com/watch?v=U64qbYpZOns)
     - _Chest<Wing x3>:
        coord: [379.75,1500,-1698.75]
@@ -119,7 +119,7 @@ _route:
        hide-icon-on-map: true
     - _Equipment::Shield<Hylian Shield>:
        coord: [-154, 141.78, 1157.37] 
-    - Dupe to 4 Hylian Shields; keep one at Full-Durability
+    - Dupe to 4 Shields; keep one at Full-Durability
     - Break crates for at least 5 arrows    
     - Fuse a Barrel to the Broadsword
     - WST Broadsword onto MNF
@@ -128,11 +128,12 @@ _route:
        comment: WARP
     - PRAF back to LL and receive the Paraglider. Use the Broadsword as the rocket holder; do not swing it or it will break.
     - _Tower::LookoutLanding:
-       comment: Launch from the tower
+       comment: Do NOT Launch from the tower
   
   - UPR:
     - _Warp::Shrine::Gutanbac
     - .link([Perform UPR] https://docs.google.com/presentation/d/14M4fUh2k582GVtFAb3VmZmG2oJg9q-ATHMdQa80ErYI/edit?usp=sharing)
+    - Map Zuggle 4 Rocket MNFs
     - _Chest::ArchaicWarmGreaves:
        comment: Equip
        level: Sky
@@ -146,34 +147,33 @@ _route:
     - _Material<Golden Apple>:
        coord: [900.73, 134.81, -1939.65]
     - _Shrine::Jiukoum
+    - Grab BOTH spears
     - _Shrine::Utojis:
        comment: throw spear through ring
-       notes: grab LZC from shrine chest. Dupe 10
-    - WST + Dzuggle 9 MNFs
+       notes: grab LZC from shrine chest. Dupe 10-
     - _Material<Topaz>:
        coord: [1516.64, 310.19, -2596.76]
        comment: in wooden chest
     - _Enemy<Lynel>:
        coord: [1464.46, 311.94, -3036.49]
-       notes: Sort Dupe bow. Grab arrows, claymore, and Saber Horn
+       notes: Sort Dupe bow (Drop + Pickup). Grab arrows, and Claymore. Drop Zuggles and pick up all weapons 
     - _Item<Stone Slab>:
        coord: [1329.79, 195.26, -3252.81]
        notes: fuse to claymore
-    - Perform Ghost Fuse:
-       notes: drop UPR shield equip any other shield. overload drop weapon, fuse to shield, drop fuse material, fuse to weapon twice (quickly. can repeat). swap weapon
 
   - DragonHead:
     - _Dispenser::S02:
-       notes: Dupe 160 Sticks, 120 Carts, and 40 Rockets
+       notes: Dupe 160 Sticks, 120 Carts, and 20 Rockets. Do Progressively
     - _Shrine::Joku-u:
        comment: Blessing
     
   - Central:
     - _Warp::Tower::LookoutLanding  
-    - Dupe 70 Fairies, 5 golden apples, 35 topaz
-    - Clip down to the depths, and retrieve a Ghoma rock:
-       notes: beat colgera, drop swap shield, fuse ghoma rock, unequip shield, and zuggle both shields to LL
-    - N
+    - Dupe 70 Fairies, 5 golden apples, 15 topaz
+    - Drop UPR shield, unequip everything, and save 
+    - Clip down to the depths and retrieve a Ghoma rock:
+       notes: fuse a topaz to your zonaite spear and swap to different weapon, pull out fuse. drop swap to topaz weapon, drop, unpause, fuse, pause, unpause. 
+    - Beat Army, colgera, equip royal claymore, fuse to weapon, and zuggle weapon and shield at the same time (no need for wall just do inputs and do not exit menu, just load save)
     - _Shrine::Kyononis:
        comment: STICK
     - E
@@ -181,17 +181,12 @@ _route:
        comment: STICK
     - _Material<Endura Carrot>:
        coord: [310.95, 128.35, 540.37]
-       notes: dupe 2
     - _Shrine::Sepapa
     - _Shrine::Ekochiu
-    - _Item<Cooking Pot>:
-       coord: [1093.26, 127.29, 1142.12]
-    - Cook 2 stamina food (Endura Carrot)
     - _Shrine::Ren-iz:
        comment: STICK inside shrine
     - _Shrine::Jojon:
        comment: PROV
-       notes: Use Pocket Rocket in Shrine
     - _Shrine::Tukarok
     - _Shrine::Morok
     - _Shrine::Tajikats
@@ -234,7 +229,6 @@ _route:
     - S. Drop Down
     - _Shrine::Sifumim:
        comment: PROV
-       notes: Use Pocket Rocket in shrine
     - .E Clip at shrine and rocket to Bamitok
     - _Shrine::Bamitok
     - Ascend out
@@ -272,7 +266,7 @@ _route:
     - _Shrine::Rakashog:
        comment: STICK
        
-  - Satori Mountain:
+  - Hebra/Tabantha:
     - Drop Down
     - _Shrine::Rakakudaj::Start
     - _Shrine::Rakakudaj
@@ -282,10 +276,6 @@ _route:
     - _Shrine::Usazum::Start
     - _Shrine::Usazum
     - _Shrine::Sonapan   
-    
-  - Rito:
-    - _Warp::Tower::LookoutLanding
-    - <<N
     - _Shrine::Ishodag
     - <<N
     - _Shrine::Sinakawak:
@@ -293,7 +283,7 @@ _route:
     - NW
     - _Shrine::Taki-ihaban:
        comment: Blessing
-    - <<W Ascend out and GAS Launch to Courage Island
+    - <<W Ascend out and Vertical Slide to Courage Island
     - _Shrine::Taunhiy:
        comment: STICK
     - <<W Drop Down to Makurukis
@@ -315,14 +305,12 @@ _route:
     - W> Drop down to Tauyosipun
     - _Shrine::Tauyosipun:
        comment: CLIP
-    - N. Slide to Icefalls Cave and Clip Down to Otak
+    - N. Slide to Icefalls Cave and ABC overload Clip Down to Otak
     - _Shrine::Otak:
        comment: PROV
-       notes: Dont Zuggle
     - E. Ascend out and Slide to Eutoum
     - _Shrine::Eutoum:
        comment: PROV
-       notes: Dont Zuggle
     - E> Slide to Talus
     - _Shrine::Sisuran::Start
     - _Shrine::Sisuran
@@ -331,9 +319,9 @@ _route:
     - _Shrine::Rutafu-um
  
   - Hebra Sky:  
-    - Ascend out and GAS Launch to Mayaumekis
+    - Ascend out and Vertical Slide to Mayaumekis
     - _Shrine::Mayaumekis
-    - NW 
+    - NW 45 slide to Kahatanaum
     - _Shrine::Kahatanaum
     - .E Slide to Taninoud Crystal
     - _Shrine::Taninoud::Start
@@ -352,17 +340,14 @@ _route:
     - <<W Slide to Nouda
     - _Shrine::Nouda:
        comment: PROV
-       notes: Dont Zuggle
  
   - Lanayru: 
     - _Warp::Shrine::Makasura
     - NE Slide to Kurakat
     - _Item<ToD Morning>:
        coord: [2395.5,150,-520]
-    - _Material<Splash Fruit>:
-       coord: [2391.17, 218, -541.36]
     - _Shrine::Kurakat:
-       notes: fill the gap on 
+       notes: fill the gap on the right side on the bottom. use 2 rockets and push the rest of the way
     - NW Slide to Jonsau
     - _Shrine::Jonsau
     - .E 
@@ -391,7 +376,6 @@ _route:
   - Lanayru Continued:
     - _Shrine::Zakusu:
        comment: PROV
-       notes: Use Pocket Rocket in shrine
     - NW Clip down to Jogou
     - _Shrine::Jogou
     - <W Ascend out and go into waterfall
@@ -416,7 +400,7 @@ _route:
     - <S
     - _Npc<White Horse>:
        coord: [798.5,150,-3720.142857142857]
-       notes: use stamina food
+       notes: use stamina food once stamina runs out
     - Ride Horse to the Crystal
     - _Shrine::Ishokin::Start
     - _Shrine::Ishokin
@@ -433,12 +417,10 @@ _route:
     - _Shrine::Irasak
     - _Shrine::Miryotanog:
        comment: PROV
-       notes: Use Pocket Rocket in Shrine
     - _Shrine::Kudanisar
     - _Shrine::Mayamats
     - _Shrine::Otutsum
-    - _Shrine::Gasas:
-       comment: STICK but very difficult
+    - _Shrine::Gasas
     - _Shrine::Turakawak
  
   - Tabantha Sky:  
@@ -450,14 +432,12 @@ _route:
     - <S
     - _Shrine::Ganos
     - <<N Activate Panel on Lightcast Island
-    - _Shrine::Ga-ahisas:
-       comment: Blessing
+    - _Shrine::Ga-ahisas
     - Clip Down
  
   - Tabantha:    
     - Clip through the ground to Iun Orok
-    - _Shrine::Iun-orok:
-       comment: STICK in bounds
+    - _Shrine::Iun-orok
     - W> Clip down to Gisa Crater
     - _Shrine::Ikatak::Start
     - _Shrine::Ikatak
@@ -479,8 +459,7 @@ _route:
     - _Shrine::Gikaku::Start
     - _Shrine::Gikaku
     - N. Slide to Mogisari
-    - _Shrine::Mogisari:
-       comment: STICK
+    - _Shrine::Mogisari
   
   - Akkala:
     - Dive down to Igashuk 
@@ -490,12 +469,10 @@ _route:
     - SW
     - _Shrine::Jochi-iu
     - W>> Slide to Kamatukis
-    - _Shrine::Kamatukis:
-       comment: STICK
+    - _Shrine::Kamatukis
     - W>> 
     - _Shrine::Kimayat:
        comment: PROV
-       notes: Dont Zuggle
     - SW
     - _Shrine::Sibajitak
     - S
@@ -504,8 +481,7 @@ _route:
     - _Shrine::Momosik::Start
     - _Shrine::Momosik
     - E>> Slide to Sinatanika
-    - _Shrine::Sinatanika:
-       comment: STICK
+    - _Shrine::Sinatanika
     - E>
     - _Shrine::Gemimik
     - .S Slide to Gatanisis
@@ -513,7 +489,6 @@ _route:
     - <<N
     - _Shrine::Rasitakiwak:
        comment: PROV
-       notes: Dont Zuggle
     - NW
     - _Shrine::Jochi-ihiga::Start
     - S>>
@@ -523,8 +498,8 @@ _route:
     - <<N
     - _Shrine::Mayachideg:
         comment: PROV
-        notes: Dont Zuggle
-    - W Rocket to Clip Spot
+    - W Sandwich slide to Clip Spot:
+        Comment: Sandwich slide; stack 2 carts on top of each other, make the top cart slightly more foward than the bottom
     - _Shrine::Moshapin::Start
     - _Shrine::Moshapin
     - S>
@@ -540,7 +515,6 @@ _route:
     - N. Clip down to Isisim
     - _Shrine::Isisim:
        comment: PROV
-       notes: Use Pocket Rocket in shrine
     - N clip to Jiotak
     - _Shrine::Jiotak
     - NW Ascend out and slide to Mayak
@@ -552,7 +526,7 @@ _route:
     - _Shrine::Sikukuu
   - Korok Forest Depths:
     - Clip down to Depths and into the Deku Tree
-    - Ruby Gloom Hands
+    - Topaz Gloom Hands
   
   - Korok Forest:
     - E
@@ -623,6 +597,7 @@ _route:
   
     
     
+
 
 
 
