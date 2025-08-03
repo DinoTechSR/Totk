@@ -221,6 +221,7 @@ _route:
     - _Shrine::Eshos:
        comment: on Surface
     - .S
+    - _Shrine::Tokiy::Start
     - _Shrine::Tokiy
     - Ascend Out
     - SE GAS Launch to Kumamayn Crystal
