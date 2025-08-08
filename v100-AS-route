@@ -31,7 +31,7 @@ _route:
     - Perform Cog Skip .link([(Guide)] https://www.youtube.com/watch?v=U64qbYpZOns)
     - _Chest<Wing x3>:
        coord: [379.75,1500,-1698.75]
-       notes: dupe 32 wings
+       notes: dupe 22 wings
        line-color: white
     - Title Card:
        coord: [433.5,1500,-1693.75]
@@ -64,19 +64,16 @@ _route:
     - _KeyItem::EnergyCell:
        comment: Run to the ledge and perform Battery Throw
     - _Shrine::In-isa:
-       notes: Grab Rusty Claymore, Dupe Shield and 30 bombs
+       notes: Dupe Bomb Shield and 20 bombs
     - _Shrine::Ukouh
     - _Location<Temple of Time>:
        coord: [453.51, 1556.17, -849.75]
     - _MainQuest::TheClosedDoor
-    - _KeyItem::Recall
     - _Location<4-Heart Door>:
        coord: [453.51, 1573.47, -760.25]
        comment: Attempt to open
     - _Warp::ROA
-    - Bomb jump up the ledge and run to/enter Recall
     - _Shrine::Nachoyah
-    - Scan Revali amiibos for fleet lotus
     - _Warp::Shrine::Ukouh
     - _Location<Temple of Time>:
        coord: [453.51, 1556.17, -849.75]
@@ -221,7 +218,8 @@ _route:
     - _Shrine::Eshos:
        comment: on Surface
     - .S
-    - _Shrine::Tokiy::Start
+    - _Shrine::Tokiy::Start:
+        coord: [2447, 2345, -2192]
     - _Shrine::Tokiy
     - Ascend Out
     - SE GAS Launch to Kumamayn Crystal
