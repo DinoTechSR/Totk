@@ -1,1 +1,148 @@
+---
+_config:
+_project:
+  authors:
+    - DinoTechSR
+  contributors:
+    - savageI3
+  description: All Shrines for v1.0.0
+  name: v1.0.0 All Shrines v1
+  url: "https://restite.org/notceler-totk/?github=dinotechsr/Totk/main/Totk-AS-v100-v1" 
+  
+  #STICK means to use a Zonai Storage Stick Clip in the shrine
+  #PROV means proving grounds
+  #Tutorial for wingflip and Intro Clip will be coming soon
+  # If there isnt a movement marker before the next thing, pocket rocket or Glide if using jetpack to the next goal
+  # Slide means "cart slide" unless mentioned otherwise
+  # To use pocket rocket in a shrine: Grab a shield, drop the shield, and pick up the rocket shield (weapon and shield have to be zuggled out of the shrine)
+  # Directionals are combined with other commands at the very beginning (always capitalized)
+_route:
+  - Overview:
+    - .link([Splits File] https://drive.google.com/file/d/1UoLfjEajmgWj4O4yNQdigU-5zynmMGLp/view?usp=sharing)
+  - Intro:
+    - Perform Intro Clip
+  - Great Sky Island:
+    - _Special::StartPos Sky<Room of Awakening>:
+       comment:
+    - _Equipment::Weapon<Decayed Master Sword>
+    - Perform Cog Skip .link([(Guide)] https://www.youtube.com/watch?v=U64qbYpZOns)
+    - _Chest<Wing x3>:
+       coord: [379.75,1500,-1698.75]
+       notes: dupe 22 wings
+       line-color: white
+    - Title Card:
+       coord: [433.5,1500,-1693.75]
+    - _Npc<Steward Construct>:
+       coord: [449.86, 1640.83, -1310.45]
+       comment: Purah Pad
+    - Wing to ToT, defeat construct with wings, and activate the button; do not touch the ground
+    - _Location::TempleofTime:
+       hide-icon-on-map: true
+    - _Enemy<Soldier Construct>:
+       coord: [453.3, 1552.01, -897.25]
+       notes: Pick up the Broadsword and Shield
+    - _Npc<Temple of Time Door>:
+       coord: [453.51, 1556.17, -849.75]
+       comment: The Closed Door
+    - _Warp::Location<Up Top>:
+       coord: [426.5,1500,-1681.25]
+    - _Shrine::Gutanbac:
+       comment: Ascend QDS
+    - _Cave::Bottomless01
+    - _Equipment::Shield<Flame Emitter Shield>:
+       coord: [745.41, 1650.87, -1368.7]
+    - _Material<Bomb Flower>:
+       coord: [744.35, 1647.04, -1344.69]
+    - _KeyItem::EnergyCell:
+       comment: Run to the ledge and perform Battery Throw
+    - _Shrine::In-isa:
+       notes: Grab Rusty Claymore; Dupe Bomb Shield and 15 bombs
+    - _Shrine::Ukouh
+    - _Location<Temple of Time>:
+       coord: [453.51, 1556.17, -849.75]
+    - _MainQuest::TheClosedDoor
+    - _Location<4-Heart Door>:
+       coord: [453.51, 1573.47, -760.25]
+       comment: Attempt to open
+    - _Warp::ROA
+    - _Shrine::Nachoyah
+    - _Warp::Shrine::Ukouh
+    - _Location<Temple of Time>:
+       coord: [453.51, 1556.17, -849.75]
+    - _GoddessStatue::TempleofTime
+    - _Location<4-Heart Door>:
+       coord: [453.51, 1573.47, -760.25]
+       comment: Open  
+    - _Location<Deposit the Decayed Master Sword>:
+       coord: [453.76, 1579.32, -636.17]
+  
+  - Dragonhead:
+    - _Chest<Rocket x3>:
+       coord: [891.57, 118.09, -541.65]
+    - Dupe to 12 Rockets (along with Wings)
+    - Burn all of New shield to PRAF to morok
+    - _Shrine::Morok:
+       comment: PR in shrine
+    - _Item<Lumber>:
+       coord: [1256.48, 145.65, -737.06]
+       notes: Fuse Square Board to Rusty Claymore and Lumber slide to Dragonhead
+    - _Dispenser::S02:
+       notes: Grab Carts and Sticks
+    - Ascend up, RAF (Rocket Arrow Flight) to Joku-u
+    - _Shrine::Joku-u
+    - Ascend up and RAF to Joju-u-u
+    - _Shrine::Joju-u-u:
+       comment: PR in shrine
+  - The Rest:
+    - _Warp::Shrine::Morok
+    - Set up ODZ Clay
+    - _Material<Arrow x5>:
+       coord: [1381.05, 245.48, -944.44]
+       comment: in chest
+    - _Shrine::Tajikats
+    - _Shrine::Kyokugon
+    - _Shrine::Riogok
+    - _Shrine::Tsutsu-um
+    - _Shrine::Mayachin
+    - _Shrine::Susuyai
+    - _Shrine::Jiosin
+    - _GoddessStatue<Horned Statue>:
+       coord: [-233.36, 110.21, 157.28]
+    - _Shrine::Serutabomac:
+       comment: PR in shrine
+    - _Shrine::Tenmaten
+    - _Shrine::Taki-ihaban
+    - _Shrine::Runakit
+    - _Shrine::Oromuwak
+    - _Shrine::Gatakis
+    - _GoddessStatue::RitoVillage
+    - Find Zelda in the Sky
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
