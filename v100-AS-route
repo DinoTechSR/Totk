@@ -3,9 +3,10 @@ _config:
 _project:
   authors:
     - DinoTechSR
-    - Xdri33s
+    - BounceSR
   contributors:
     - savageI3
+    - Aergyl
   description: All Shrines for v1.0.0
   name: v1.0.0 All Shrines v1
   url: "https://restite.org/notceler-totk/?github=dinotechsr/Totk/main/Totk-AS-v100-v1" 
@@ -523,33 +524,7 @@ _route:
     - _Shrine::Minetak
     - <S Slide to Sikukuu
     - _Shrine::Sikukuu
-  - Korok Forest Depths:
-    - Clip down to Depths and into the Deku Tree
-    - Topaz Gloom Hands
-  
-  - Korok Forest:
-    - E
-    - _Shrine::Pupunke:
-       comment: 5 golden apples
-    - <W
-    - _Shrine::Musanokir
-    - W>>
-    - _Shrine::Sakunbomar::Start
-    - _Shrine::Sakunbomar
- 
-  - Korok Forest Sky: 
-    - S GAS Launch up to Bravery Island
-    - Talk to Construct to get up to the shrine Course
-    - _Shrine::Simosiwak:
-       comment: PROV
-       notes: Dont Zuggle
-    - NE GAS Launch to Crystal
-    - _Shrine::Mayam::Start
-    - <N
-    - _Shrine::Mayam
- 
-  - Korok Forest Continued:
-    - .W Drop down to Kikakin
+    - .W Slide to Kikakin
     - _Shrine::Kikakin:
        comment: STICK
     - .W Slide to Forgotten Temple and Clip Down
@@ -560,8 +535,37 @@ _route:
        comment: Take out 4 wings
     - SE go to Clip Spot
     - _Shrine::Tenmaten
-    - _Warp::Shrine::Simosiwak
+    
+  - Korok Forest Depths:
+    - Clip down to Depths and into the Deku Tree
+    - Topaz Gloom Hands
+  
+  - Korok Forest Sky:
+    - _Warp::Shrine::Sikukuu:
+       comment: WARP
+       level: Sky
+    - NE GAS Launch to Crystal
+    - _Shrine::Mayam::Start
+    - <N
+    - _Shrine::Mayam
+    - S GAS Launch up to Bravery Island
+    - Talk to Construct to get up to the shrine Course
+    - _Shrine::Simosiwak:
+       comment: PROV
+       notes: Dont Zuggle
+  
+  - Korok Forest Surface:
     - _Shrine::Ninjis
+    - N
+    - _Shrine::Musanokir
+    - E
+    - _Shrine::Pupunke:
+       comment: 5 golden apples
+    - W>> through the town area
+    - _Shrine::Sakunbomar::Start
+    - _Shrine::Sakunbomar
+ 
+    
   - Heroes Aspect:
     - _Warp::Shrine::Ukouh
     - _Chest<Ancient Heroes Aspect>:
