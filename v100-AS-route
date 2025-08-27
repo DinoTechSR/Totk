@@ -524,27 +524,8 @@ _route:
     - _Shrine::Minetak
     - <S Slide to Sikukuu
     - _Shrine::Sikukuu
-    - .W Slide to Kikakin
-    - _Shrine::Kikakin:
-       comment: STICK
-    - .W Slide to Forgotten Temple and Clip Down
-    - _Shrine::Mayausiy:
-       comment: STICK
-    - <S Ascend out
-    - _Shrine::Kiuyoyou:
-       comment: Take out 4 wings
-    - SE go to Clip Spot
-    - _Shrine::Tenmaten
-    
-  - Korok Forest Depths:
-    - Clip down to Depths and into the Deku Tree
-    - Topaz Gloom Hands
-  
+   
   - Korok Forest Sky:
-    - _Warp::Shrine::Sikukuu:
-       comment: WARP
-       level: Sky
-    - NE GAS Launch to Crystal
     - _Shrine::Mayam::Start
     - <N
     - _Shrine::Mayam
@@ -553,8 +534,14 @@ _route:
     - _Shrine::Simosiwak:
        comment: PROV
        notes: Dont Zuggle
+   
+  - Korok Forest Depths:
+    - Clip down to Depths and into the Deku Tree
+    - Topaz Gloom Hands
+ 
   
   - Korok Forest Surface:
+    - _Warp::Shrine::Simosiwak
     - _Shrine::Ninjis
     - N
     - _Shrine::Musanokir
@@ -566,6 +553,19 @@ _route:
     - _Shrine::Sakunbomar
  
     
+   
+    - .W Slide to Kikakin
+    - _Shrine::Kikakin:
+       comment: STICK
+    - .W Slide to Forgotten Temple and Clip Down
+    - _Shrine::Mayausiy:
+       comment: STICK
+    - <S Ascend out
+    - _Shrine::Kiuyoyou:
+       comment: Take out 4 wings
+    - SE go to Clip Spot
+    - _Shrine::Tenmaten
+      
   - Heroes Aspect:
     - _Warp::Shrine::Ukouh
     - _Chest<Ancient Heroes Aspect>:
