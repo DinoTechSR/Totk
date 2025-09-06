@@ -140,30 +140,33 @@ _route:
        notes: dupe 10 fairies
  
  
-  - Dragonhead Surface:
+  - Dragonhead:
     - _Shrine::Jochisiu
     - _Material<Golden Apple>:
        coord: [900.73, 134.81, -1939.65]
     - _Shrine::Jiukoum
     - Grab BOTH spears
+    - Throw Spear through the ring
+    - Dzuggle 8 times and map zuggle once  
     - _Shrine::Utojis:
-       comment: throw spear through ring
        notes: grab LZC from shrine chest. Dupe 10-
     - _Material<Topaz>:
        coord: [1516.64, 310.19, -2596.76]
        comment: in wooden chest
     - _Enemy<Lynel>:
        coord: [1464.46, 311.94, -3036.49]
-       notes: Sort Dupe bow (Drop + Pickup). Grab arrows, and Claymore. Drop Zuggles and pick up all weapons 
-    - _Item<Stone Slab>:
-       coord: [1329.79, 195.26, -3252.81]
-       notes: fuse to claymore
-
-  - DragonHead:
+    - fuse lynel mace horn to weapon. drop weapons, pick up MNF and unequip
+    - Sort Dupe SLB, pick up claymore
     - _Dispenser::S02:
+       comment: In the sky
        notes: Dupe 160 Sticks, 120 Carts, and 20 Rockets. Do Progressively
     - _Shrine::Joku-u:
        comment: Blessing
+    - _Item<Stone Slab>:
+       coord: [1329.79, 195.26, -3252.81]
+       notes: fuse to claymore
+    - _Shrine::Joju-u-u
+    
     
   - Central:
     - _Warp::Tower::LookoutLanding  
@@ -383,7 +386,7 @@ _route:
     - _Shrine::O-ogim
      
   - Southern Sky:
-    - _Warp::Shrine::Joku-u:
+    - _Warp::Shrine::Ukoojisi:
        level: Sky
        line-color: lightgreen
     - Ascend out
@@ -392,8 +395,6 @@ _route:
        comment: PROV
   
   - Gerudo Highlands:
-    - <<S
-    - _Shrine::Joju-u-u
     - W> Slide to Utsushok
     - _Shrine::Utsushok:
        comment: STICK
