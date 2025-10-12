@@ -3,10 +3,10 @@ _config:
 _project:
   authors:
     - DinoTechSR
-    - BounceSR
   contributors:
     - savageI3
     - Aergyl
+    - EliasNXKO
   description: All Shrines for v1.0.0
   name: v1.0.0 All Shrines v1
   url: "https://restite.org/notceler-totk/?github=dinotechsr/Totk/main/Totk-AS-v100-v1" 
@@ -453,7 +453,7 @@ _route:
   - Akkala Sky:
     - _Warp::Shrine::Ekochiu:
        level: Sky
-    - E. GAS Launch to Kadaunar
+    - E. 2 Cart V Slide to Kadaunar
     - _Shrine::Kadaunar
     - E>> Slide to Jirutagumac
     - _Shrine::Jirutagumac
@@ -532,18 +532,16 @@ _route:
    
   - Korok Forest Depths:
     - Clip down to Depths and into the Deku Tree
-    - Topaz Gloom Hands
+    - Kill Phantom Ganon
        
   - Korok Forest Sky:
-    - _Warp::Shrine::Sikukuu
+    - _Warp::Shrine::Kadaunar
     - _Shrine::Mayam::Start
     - <N
     - _Shrine::Mayam
-    - S GAS Launch up to Bravery Island
     - Talk to Construct to get up to the shrine Course
     - _Shrine::Simosiwak:
        comment: PROV
-       notes: Dont Zuggle
        level: Sky
   
   - Korok Forest Surface:
