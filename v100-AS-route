@@ -308,9 +308,8 @@ _route:
     - Drop Down
     - _Shrine::Rakakudaj::Start
     - _Shrine::Rakakudaj
-    - _Shrine::Suariwak
     - _Shrine::Turakamik
-    - _Shrine::Rotsumamu
+    - _Shrine::Suariwak
     - _Shrine::Usazum::Start
     - _Shrine::Usazum
     - _Shrine::Sonapan   
@@ -321,10 +320,55 @@ _route:
     - NW
     - _Shrine::Taki-ihaban:
        comment: Blessing
-    - <<W Ascend out and Vertical Slide to Courage Island
+       
+  - Gerudo Sky:  
     - _Shrine::Taunhiy:
        comment: STICK
-    - <<W Drop Down to Makurukis
+    - _Shrine::Ga-ahisas
+    - _Shrine::Ganos
+    - _Shrine::Mayasiar
+     
+  - Southern Sky:
+    - _Warp::Shrine::Ukoojisi:
+       level: Sky
+       line-color: lightgreen
+    - Ascend out
+    - NW Clip into Joku Usin (above)
+    - _Shrine::Joku-usin:
+       comment: PROV
+  
+  - Gerudo Highlands:
+    - W> Slide to Utsushok
+    - _Shrine::Utsushok:
+       comment: STICK
+    - <S
+    - _Npc<White Horse>:
+       coord: [798.5,150,-3720.142857142857]
+       notes: use stamina food once stamina runs out
+    - Ride Horse to the Crystal
+    - _Shrine::Ishokin::Start
+    - _Shrine::Ishokin
+    - _Shrine::Kitawak
+    - GAS launch up to Siyamotsus
+    - _Shrine::Siyamotsus
+    - _Shrine::Motsusis
+    - _Shrine::Siwakama
+    - Clip Down to Chichim
+    - _Shrine::Chichim
+    - _Shrine::Mayatat
+    - _Shrine::Soryotanog
+    - _Shrine::Karahatag
+    - _Shrine::Irasak
+    - _Shrine::Miryotanog:
+       comment: PROV
+    - _Shrine::Kudanisar
+    - _Shrine::Mayamats
+    - _Shrine::Otutsum 
+    - _Shrine::Rotsumamu
+    - _Shrine::Turakawak
+    - _Shrine::Gasas
+    - _Shrine::Ikatak
+    - _Shrine::Iun-orok
     - _Shrine::Makurukis:
        comment: STICK
     - NE
@@ -378,65 +422,7 @@ _route:
     - <<W Slide to Nouda
     - _Shrine::Nouda:
        comment: PROV
-     
-  - Southern Sky:
-    - _Warp::Shrine::Ukoojisi:
-       level: Sky
-       line-color: lightgreen
-    - Ascend out
-    - NW Clip into Joku Usin (above)
-    - _Shrine::Joku-usin:
-       comment: PROV
-  
-  - Gerudo Highlands:
-    - W> Slide to Utsushok
-    - _Shrine::Utsushok:
-       comment: STICK
-    - <S
-    - _Npc<White Horse>:
-       coord: [798.5,150,-3720.142857142857]
-       notes: use stamina food once stamina runs out
-    - Ride Horse to the Crystal
-    - _Shrine::Ishokin::Start
-    - _Shrine::Ishokin
-    - _Shrine::Kitawak
-    - GAS launch up to Siyamotsus
-    - _Shrine::Siyamotsus
-    - _Shrine::Motsusis
-    - _Shrine::Siwakama
-    - Clip Down to Chichim
-    - _Shrine::Chichim
-    - _Shrine::Mayatat
-    - _Shrine::Soryotanog
-    - _Shrine::Karahatag
-    - _Shrine::Irasak
-    - _Shrine::Miryotanog:
-       comment: PROV
-    - _Shrine::Kudanisar
-    - _Shrine::Mayamats
-    - _Shrine::Otutsum
-    - _Shrine::Gasas
-    - _Shrine::Turakawak
- 
-  - Tabantha Sky:  
-    - Vertical Cart Slide to Starview Island Sphere
-    - Use Dazzlefruit to enter Mayasiar
-    - _Shrine::Mayasiar
-    - N.
-    - _Shrine::Ganos::Start
-    - <S
-    - _Shrine::Ganos
-    - <<N Activate Panel on Lightcast Island
-    - _Shrine::Ga-ahisas
-    - Clip Down
- 
-  - Tabantha:    
-    - Clip through the ground to Iun Orok
-    - _Shrine::Iun-orok
-    - W> Clip down to Gisa Crater
-    - _Shrine::Ikatak::Start
-    - _Shrine::Ikatak
- 
+    
   - To Akkala:
     - _Warp::Shrine::Orochium
     - _Shrine::Mayausiy:
