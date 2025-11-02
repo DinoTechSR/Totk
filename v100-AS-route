@@ -425,8 +425,6 @@ _route:
     
   - To Akkala:
     - _Warp::Shrine::Orochium
-    - _Shrine::Mayausiy:
-       comment: STICK
     - _Shrine::Kiuyoyou:
        comment: STICK
     - _Shrine::Tenmaten
@@ -542,6 +540,8 @@ _route:
     - _Shrine::Sakunbomar
     - .W Slide to Kikakin
     - _Shrine::Kikakin:
+       comment: STICK
+    - _Shrine::Mayausiy:
        comment: STICK
       
   - Heroes Aspect:
