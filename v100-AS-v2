@@ -1,0 +1,558 @@
+---
+_config:
+_project:
+  authors:
+    - DinoTechSR
+  contributors:
+    - savageI3
+    - Aergyl
+    - EliasNXKO
+  description: All Shrines for v1.0.0
+  name: v1.0.0 All Shrines v1
+  url: "https://restite.org/notceler-totk/?github=dinotechsr/Totk/main/Totk-AS-v100-v1" 
+  
+  #STICK means to use a Zonai Storage Stick Clip in the shrine
+  #PROV means proving grounds
+  #Tutorial for wingflip and Intro Clip will be coming soon
+  # If there isnt a movement marker before the next thing, pocket rocket or Glide if using jetpack to the next goal
+  # Slide means "cart slide" unless mentioned otherwise
+  # To use pocket rocket in a shrine: Grab a shield, drop the shield, and pick up the rocket shield (weapon and shield have to be zuggled out of the shrine)
+  # Directionals are combined with other commands at the very beginning (always capitalized)
+_route:
+  - Overview:
+    - .link([Splits File] https://drive.google.com/file/d/1UoLfjEajmgWj4O4yNQdigU-5zynmMGLp/view?usp=sharing)
+    - .link([What Does N< Mean?] https://docs.google.com/drawings/d/1M4rwnU_A8izpY-yLnVToBowt4p-td5o6LXjBdohlwNw/edit?usp=sharing)
+    - Directionals are UNFINISHED! If you would like directionals in your route, DM @DinoTechSR on discord and ill correct them
+  - Intro:
+    - Perform Intro Clip
+  - Great Sky Island:
+    - _Special::StartPos Sky<Room of Awakening>:
+       comment:
+    - _Equipment::Weapon<Decayed Master Sword>
+    - Perform Cog Skip .link([(Guide)] https://www.youtube.com/watch?v=U64qbYpZOns)
+    - _Chest<Wing x3>:
+       coord: [379.75,1500,-1698.75]
+       notes: dupe 22 wings
+       line-color: white
+    - Title Card:
+       coord: [433.5,1500,-1693.75]
+    - _Npc<Steward Construct>:
+       coord: [449.86, 1640.83, -1310.45]
+       comment: Purah Pad
+    - Wing to ToT, defeat construct with wings, and activate the button; do not touch the ground
+    - _Location::TempleofTime:
+       hide-icon-on-map: true
+    - _Enemy<Soldier Construct>:
+       coord: [453.3, 1552.01, -897.25]
+       notes: Pick up the Broadsword and Shield
+    - _Npc<Temple of Time Door>:
+       coord: [453.51, 1556.17, -849.75]
+       comment: The Closed Door
+    - QDZ Broadsword into the prologue
+    - DZuggle 1 MNF out of the prologue
+    - _Warp::Location<Up Top>:
+       coord: [426.5,1500,-1681.25]
+    - _Shrine::Gutanbac:
+       comment: Ascend QDS
+    - _Cave::Bottomless01
+    - _Equipment::Shield<Flame Emitter Shield>:
+       coord: [745.41, 1650.87, -1368.7]
+    - _Material<Bomb Flower>:
+       coord: [744.35, 1647.04, -1344.69]
+    - _Material<Brightbloom seed x3>:
+       coord: [743.79, 1648.09, -1344.8]
+    - _KeyItem::EnergyCell:
+       comment: Run to the ledge and perform Battery Throw
+    - _Shrine::In-isa:
+       notes: Dupe Bomb Shield and 20 bombs
+    - _Shrine::Ukouh
+    - _Location<Temple of Time>:
+       coord: [453.51, 1556.17, -849.75]
+    - _MainQuest::TheClosedDoor
+    - _Location<4-Heart Door>:
+       coord: [453.51, 1573.47, -760.25]
+       comment: Attempt to open
+    - _Warp::ROA
+    - _Shrine::Nachoyah
+    - _Warp::Shrine::Ukouh
+    - _Location<Temple of Time>:
+       coord: [453.51, 1556.17, -849.75]
+    - _GoddessStatue::TempleofTime
+    - _Location<4-Heart Door>:
+       coord: [453.51, 1573.47, -760.25]
+       comment: Open  
+    - _Location<Deposit the Decayed Master Sword>:
+       coord: [453.76, 1579.32, -636.17]
+  
+  - Purah:
+    - Dive down to surface east
+    - _Material<Splash Fruit x3>:
+       coord: [884.24, 116.18, -543.12]
+    - _Chest<Rocket x3>:
+       coord: [891.57, 118.09, -541.65]
+    - Dupe to 12 Rockets (along with Wings)
+    - PRAF to Lookout Landing
+    - _Place::LookoutLanding:
+       hide-icon-on-map: true
+    - _Npc<Josha>:
+       coord: [-238.97, 132.32, 147.92]
+       comment: To the Kingdom of Hyrule
+    - PRAF to shrine; activate but don't enter
+    - _Location::HyruleCastleTownRuins:
+       hide-icon-on-map: true
+    - _Location::CentralSquare:
+       hide-icon-on-map: true
+    - _Shrine<Kyononis (activate)>:
+       coord: [-205.15, 123, 451.47]
+    - PRAF (new shield) to Hoz
+    - _Location::FirstGatehouse:
+       hide-icon-on-map: true
+    - _Npc<Hoz>:
+       coord: [-334.93, 238.96, 845.94]
+       comment: Crisis at Hyrule Castle
+    - Wing to Docks, run through the tunnel, bomb the switch, and get the Hylian Shield:
+       notes: On the Wing, fuse a Rocket to the Broadsword and damage down to 1-Durability for WST (2 hits after the "Badly Damaged" message)
+    - _Location::Docks:
+       hide-icon-on-map: true
+    - _Equipment::Shield<Hylian Shield>:
+       coord: [-154, 141.78, 1157.37] 
+    - Dupe to 4 Shields; keep one at Full-Durability
+    - Break crates for at least 5 arrows    
+    - Fuse a Barrel to the Broadsword
+    - WST Broadsword onto MNF
+    - _Warp::Shrine::Kyononis:
+       comment: WARP
+    - PRAF back to LL and receive the Paraglider. Use the Broadsword as the rocket holder; do not swing it or it will break.
+    - _Tower::LookoutLanding:
+       comment: Do NOT Launch from the tower
+  
+  - UPR:
+    - _Warp::Shrine::Gutanbac
+    - .link([Perform UPR] https://docs.google.com/presentation/d/14M4fUh2k582GVtFAb3VmZmG2oJg9q-ATHMdQa80ErYI/edit?usp=sharing)
+    - Map Zuggle 4 Rocket MNFs
+    - _Chest::ArchaicWarmGreaves:
+       level: Sky
+       comment: Equip
+    - Grab Zonai Charge from Corpse to the Left
+    - _Material<Fairy>:
+       coord: [909.74, 666.88, -2122.8]
+       notes: dupe ~10 fairies and 6 Charges
+ 
+ 
+  - Dragonhead:
+    - _Shrine::Jochisiu
+    - _Shrine::Jiukoum
+    - Grab BOTH spears
+    - Throw Spear through the ring
+    - Dzuggle 8 times, swap to MNF, and map zuggle once  
+    - _Shrine::Utojis
+    - _Material<Topaz>:
+       coord: [1516.64, 310.19, -2596.76]
+       comment: in wooden chest
+    - _Enemy<Lynel>:
+       coord: [1464.46, 311.94, -3036.49]
+    - While Lynel is Dying, Dupe up to 12 topaz and ~52 Fairies
+    - fuse lynel mace horn to weapon. drop weapons, pick up MNF and unequip
+    - Pick up SLB, pick up claymore
+    - _Dispenser::S02:
+       comment: In the sky
+    - _Shrine::Joku-u:
+       comment: Blessing
+    - _Item<Stone Slab>:
+       coord: [1329.79, 195.26, -3252.81]
+       notes: fuse to claymore
+    - Zuggle SLB
+    - Dupe 160 Sticks, 160 Carts, and 20 Rockets. Do Progressively, Dupe Most sicks before Army
+    - _Shrine::Joju-u-u
+    
+    
+  - Central:
+    - _Warp::Shrine::Kyononis
+    - Clip down to the depths and retrieve a Ghoma rock
+    - Grab Soldier's Broadsword during army
+    - Beat Army, colgera, fuse gohma rock to weapon, and zuggle weapon and shield at the same time (no need for wall just do inputs and do not exit menu, just load save)
+    - _Shrine::Kyononis:
+       comment: STICK
+    - E
+    - _Shrine::Yamiyo:
+       comment: STICK
+    - _Material<Endura Carrot>:
+       coord: [310.95, 128.35, 540.37]
+    - _Shrine::Jojon:
+       comment: PROV
+    - _Shrine::Tukarok
+    - _Shrine::Morok
+    - _Shrine::Tajikats
+    - _Shrine::Teniten:
+       comment: STICK
+    - _Shrine::Kamizun:
+       comment: PROV
+    - _Shrine::Susub
+    - _Shrine::En-oma::Start:
+        notes: In the Sky
+    - _Shrine::En-oma
+    - Clip down to the Depths
+    
+  - Autobuild:
+    - _Special::StartPos Depths<Autobuild>
+    
+  - Lanayru: 
+    - _Warp::Shrine::Morok
+    - _Shrine::Makasura
+    - _Dispenser::G02:
+       notes: input only 1 zonai charge into the dispenser
+    - _Item<ToD Morning>:
+       coord: [2395.5,150,-520]
+    - _Shrine::Kurakat:
+       notes: fill the gap on the right side on the bottom. use 2 rockets and push the rest of the way
+    - NW Slide to Jonsau
+    - _Shrine::Jonsau
+    - .E 
+    - _Shrine::Maoikes
+    - E Ascend out
+    - <E
+    - _Shrine::Joniu::Start
+    - _Shrine::Joniu
+    - Exit the Cave and Rocket NE to Mogawak
+    - _Shrine::Mogawak
+    - <E
+    - _Shrine::Ihen-a
+    - <S Slide to Apogek
+    - _Shrine::Apogek
+    - E>> Clip Down to Yomizuk
+    - _Shrine::Yomizuk
+    
+  - Lanayru Sky: 
+    - <S Ascend out and GAS Launch up to Mayanas Crystal
+    - _Shrine::Mayanas::Start
+    - _Shrine::Mayanas
+    - NW go to construct and complete the dive challenge
+    - _Shrine::Sihajog
+    - SW Slide to Course:
+       coord: [3948,1500,-1530]
+ 
+  - Lanayru Continued:
+    - _Shrine::Zakusu:
+       comment: PROV
+    - NW Clip down to Jogou
+    - _Shrine::Jogou
+    - <W Ascend out and go into waterfall
+    - _Shrine::O-ogim::Start
+    - _Shrine::O-ogim
+    
+  - Zonaite Forge Sky:
+    - _Shrine::Josiu::Start
+    - _Shrine::Josiu
+    - _Shrine::Yansamin:
+       comment: PROV
+    - _Shrine::Ukoojisi::Start
+    - _Shrine::Ukoojisi:
+       level: Sky
+  
+  - Necluda:
+    - _Shrine::Eshos:
+       comment: on Surface
+    - .S
+    - _Shrine::Tokiy::Start:
+        coord: [2447, 2345, -2192]
+    - _Shrine::Tokiy
+    - Ascend Out
+    - SE GAS Launch to Kumamayn Crystal
+    - _Shrine::Kumamayn::Start
+    - _Shrine::Kumamayn
+    - S. Drop Down
+    - _Shrine::Sifumim:
+       comment: PROV
+    - .E Clip at shrine and rocket to Bamitok
+    - _Shrine::Bamitok
+    - Ascend out
+    - N>> Slide to Zanmik
+    - _Item<Cooking Pot>:
+       coord: [3446.07, 226.75, -2136.45]
+       notes: Cook Endura Carrot
+    - _Material<Golden Apple>:
+       coord: [3513.94, 238.16, -2141.49]
+    - _Shrine::Zanmik:
+       comment: STICK
+    - <E
+    - _Shrine::Mayahisik
+    - <<E
+    - _Shrine::Jikais
+    - .S
+    - _Shrine::Anedamimik:
+       comment: STICK on grate
+    - <S Slide to Eventide Island and Clip into Marari-in
+    - _Shrine::Marari-in
+    
+  - Hyrule Field 2:
+    - _Warp::Tower::LookoutLanding
+    - _Shrine::Jiosin
+    - _Shrine::Susuyai
+    - _Shrine::Mayachin
+    - _Shrine::Kyokugon
+    - _Shrine::Tadarok
+    - _Shrine::Riogok
+    - Vertical Cart Slide up to Jinodok
+    - _Shrine::Tsutsu-um:
+       comment STICK
+    
+  - Hyrule Field Sky:
+    - GAS Launch up to Jinodok
+    - _Shrine::Jinodok::Start:
+       level: Sky
+    - _Shrine::Jinodok
+    - _Shrine::Rakashog:
+       comment: STICK
+       
+  - Hebra/Tabantha:
+    - Drop Down
+    - _Shrine::Rakakudaj::Start
+    - _Shrine::Rakakudaj
+    - _Shrine::Turakamik
+    - _Shrine::Suariwak
+    - _Shrine::Usazum::Start
+    - _Shrine::Usazum
+    - _Shrine::Sonapan   
+    - _Shrine::Ishodag
+    - <<N
+    - _Shrine::Sinakawak:
+       comment: STICK
+    - NW
+    - _Shrine::Taki-ihaban:
+       comment: Blessing
+       
+  - Gerudo Sky:  
+    - _Shrine::Taunhiy:
+       comment: STICK
+    - _Shrine::Ga-ahisas
+    - _Shrine::Ganos
+    - _Shrine::Mayasiar
+     
+  - Southern Sky:
+    - _Warp::Shrine::Ukoojisi:
+       level: Sky
+       line-color: lightgreen
+    - Ascend out
+    - NW Clip into Joku Usin (above)
+    - _Shrine::Joku-usin:
+       comment: PROV
+  
+  - Gerudo Highlands:
+    - W> Slide to Utsushok
+    - _Shrine::Utsushok:
+       comment: STICK
+    - <S
+    - _Npc<White Horse>:
+       coord: [798.5,150,-3720.142857142857]
+       notes: use stamina food once stamina runs out
+    - Ride Horse to the Crystal
+    - _Shrine::Ishokin::Start
+    - _Shrine::Ishokin
+    - _Shrine::Kitawak
+    - GAS launch up to Siyamotsus
+    - _Shrine::Siyamotsus
+    - _Shrine::Motsusis
+    - _Shrine::Siwakama
+    - Clip Down to Chichim
+    - _Shrine::Chichim
+    - _Shrine::Mayatat
+    - _Shrine::Soryotanog
+    - _Shrine::Karahatag
+    - _Shrine::Irasak
+    - _Shrine::Miryotanog:
+       comment: PROV
+    - _Shrine::Kudanisar
+    - _Shrine::Mayamats
+    - _Shrine::Otutsum 
+    - _Shrine::Rotsumamu
+    - _Shrine::Turakawak
+    - _Shrine::Gasas
+    - _Shrine::Ikatak
+    - _Shrine::Iun-orok
+    - _Shrine::Makurukis:
+       comment: STICK
+    - NE
+    - _Shrine::Runakit:
+       comment: STICK
+    - NW
+    - _Shrine::Oromuwak
+    - <W
+    - _Shrine::Gatakis
+    - <W Clip down to Wao-os
+    - _Shrine::Wao-os
+    - NE Slide to Sahirow
+    - _Shrine::Sahirow
+    - W>> GAS Launch up to Ijo-o
+    - _Shrine::Ijo-o
+    - W> Drop down to Tauyosipun
+    - _Shrine::Tauyosipun:
+       comment: CLIP
+    - N. Slide to Icefalls Cave and ABC overload Clip Down to Otak
+    - _Shrine::Otak:
+       comment: PROV
+    - E. Ascend out and Slide to Eutoum
+    - _Shrine::Eutoum:
+       comment: PROV
+    - E> Slide to Talus
+    - _Shrine::Sisuran::Start
+    - _Shrine::Sisuran
+    - <W go into Hebra Mountain Cave
+    - _Shrine::Rutafu-um::Start
+    - _Shrine::Rutafu-um
+ 
+  - Hebra Sky:  
+    - Ascend out and Vertical Slide to Mayaumekis
+    - _Shrine::Mayaumekis
+    - NW 45 slide to Kahatanaum
+    - _Shrine::Kahatanaum
+    - .E Slide to Taninoud Crystal
+    - _Shrine::Taninoud::Start
+    - _Shrine::Taninoud
+    - <E Slide to Tenbez
+    - _Shrine::Tenbez
+ 
+  - Hebra Continued:
+    - Drop down to Mayaotaki
+    - _Shrine::Mayaotaki
+    - W> 
+    - _Shrine::Oshozan-u
+    - S> Slide to Orochium
+    - _Shrine::Orochium:
+       comment: STICK
+    - <<W Slide to Nouda
+    - _Shrine::Nouda:
+       comment: PROV
+    
+  - To Akkala:
+    - _Warp::Shrine::Orochium
+    - _Shrine::Kiuyoyou:
+       comment: STICK
+    - _Shrine::Tenmaten
+    - _Shrine::Serutabomac
+    - _Shrine::Sepapa
+    - _Shrine::Ren-iz:
+       comment: STICK inside shrine
+    - _Shrine::Ekochiu
+  
+  - Akkala Sky:
+    - _Warp::Shrine::Ekochiu:
+       level: Sky
+    - E. 2 Cart V Slide to Kadaunar
+    - _Shrine::Kadaunar
+    - E>> Slide to Jirutagumac
+    - _Shrine::Jirutagumac
+    - <E
+    - _Shrine::Igoshon
+    - N> Slide to Natak Crystal
+    - _Shrine::Natak::Start
+    - _Shrine::Natak
+    - <<E Slide to Gikaku Crystal
+    - _Shrine::Gikaku::Start
+    - _Shrine::Gikaku
+    - N. Slide to Mogisari
+    - _Shrine::Mogisari
+  
+  - Akkala:
+    - Dive down to Igashuk 
+    - _Shrine::Igashuk
+    - S. 
+    - _Shrine::Rasiwak
+    - SW
+    - _Shrine::Jochi-iu
+    - W>> Slide to Kamatukis
+    - _Shrine::Kamatukis
+    - W>> 
+    - _Shrine::Kimayat:
+       comment: PROV
+    - SW
+    - _Shrine::Sibajitak
+    - S
+    - _Shrine::Sitsum
+    - <E Clip down to Talus
+    - _Shrine::Momosik::Start
+    - _Shrine::Momosik
+    - E>> Slide to Sinatanika
+    - _Shrine::Sinatanika
+    - E>
+    - _Shrine::Gemimik
+    - .S Slide to Gatanisis
+    - _Shrine::Gatanisis
+    - <<N
+    - _Shrine::Rasitakiwak:
+       comment: PROV
+    - NW
+    - _Shrine::Jochi-ihiga::Start
+    - S>>
+    - _Shrine::Jochi-ihiga
+    - W>>
+    - _Shrine::Domizuin
+    - <<N
+    - _Shrine::Mayachideg:
+        comment: PROV
+    - W Sandwich slide to Clip Spot:
+        Comment: Sandwich slide; stack 2 carts on top of each other, make the top cart slightly more foward than the bottom
+    - _Shrine::Moshapin::Start
+    - _Shrine::Moshapin
+    - S>
+    - _Shrine::Kisinona:
+       comment: STICK
+    - W>> 
+    - _Shrine::Timawak
+    - N Slide to Marakuguc
+    - _Shrine::Marakuguc:
+       comment: STICK
+    - N. Clip down to Isisim
+    - _Shrine::Isisim:
+       comment: PROV
+    - N clip to Jiotak
+    - _Shrine::Jiotak
+    - NW Ascend out and slide to Mayak
+    - _Shrine::Mayak:
+       comment: STICK
+    - <W Slide Minetak
+    - _Shrine::Minetak
+    - <S Slide to Sikukuu
+    - _Shrine::Sikukuu
+   
+  - Korok Forest Depths:
+    - Clip down to Depths and into the Deku Tree
+    - Kill Phantom Ganon
+       
+  - Korok Forest Sky:
+    - _Warp::Shrine::Kadaunar
+    - _Shrine::Mayam::Start
+    - <N
+    - _Shrine::Mayam
+    - Talk to Construct to get up to the shrine Course
+    - _Shrine::Simosiwak:
+       comment: PROV
+       level: Sky
+  
+  - Korok Forest Surface:
+    - _Shrine::Ninjis
+    - N
+    - _Shrine::Musanokir
+    - E
+    - _Shrine::Pupunke:
+       comment: 5 golden apples
+    - W>> through the town area
+    - _Shrine::Sakunbomar::Start
+    - _Shrine::Sakunbomar
+    - .W Slide to Kikakin
+    - _Shrine::Kikakin:
+       comment: STICK
+    - _Shrine::Mayausiy:
+       comment: STICK
+      
+  - Heroes Aspect:
+    - _Warp::Shrine::Ukouh
+    - _Chest<Ancient Heroes Aspect>:
+       coord: [453.51, 1573.47, -765.25]
+  - End:
+    - _Warp::Shrine::Kyononis
+    - Clip Down to Army
+    - Clip through the door
+    - _Enemy<Ganondorf>:
+       coord: [-249.22, -2345.88, 1041.27]
+    - Beat Demon Dragon
+    - Touch Hands
