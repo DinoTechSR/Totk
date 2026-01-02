@@ -262,7 +262,6 @@ _route:
        level: Sky
        line-color: lightgreen
     - Ascend out
-    - NW Clip into Joku Usin (above)
     - _Shrine::Joku-usin:
        comment: PROV 6
   
@@ -278,7 +277,6 @@ _route:
     - _Shrine::Ishokin::Start
     - _Shrine::Ishokin
     - _Shrine::Kitawak
-    - GAS launch up to Siyamotsus
     - _Shrine::Siyamotsus
     - _Shrine::Motsusis
     - _Shrine::Siwakama
@@ -358,6 +356,7 @@ _route:
     - _Shrine::Rasitakiwak:
        notes: PROV 11
     - _Shrine::Jochi-ihiga::Start
+    - _Shrine::Jochi-ihiga
     - _Shrine::Domizuin
     - _Shrine::Mayachideg:
        notes: PROV 12
@@ -379,6 +378,7 @@ _route:
     - _Shrine::Kamatukis
     - _Shrine::Kimayat:
        notes: PROV 13
+    - _Shrine::Sibajitak
     - _Shrine::Momosik::Start
     - _Shrine::Momosik
     - _Shrine::Sitsum
