@@ -165,6 +165,8 @@ _route:
     - Dupe 160 Sticks, 160 Carts, and 20 Rockets. Do Progressively, Dupe Most sicks before Army
     - _Shrine::Joju-u-u
     - _Shrine::En-oma::Start
+    - _Shrine::En-oma
+  
     
   - Hyrule Field:
     - _Warp::Tower::LookoutLanding:
@@ -397,7 +399,7 @@ _route:
        notes: PROV 15
   
   - Korok Forest:
-    - Shrine::Ninjis
+    - _Shrine::Ninjis
     - _Shrine::Pupunke::Start
     - _Shrine::Pupunke
     - _Shrine::Musanokir
