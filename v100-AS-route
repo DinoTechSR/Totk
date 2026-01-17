@@ -187,8 +187,7 @@ _route:
     - _Warp::Shrine::Kyononis
     - _Shrine::Kyononis
     - _Shrine::Yamiyo
-    - _Material<Endura Carrot>:
-       coord: [310.95, 128.35, 540.37]
+
     - _Shrine::Jojon:
        notes: PROV 2
     - _Shrine::Tukarok
@@ -265,9 +264,6 @@ _route:
        notes: PROV 7
        
   - Eldin Canyon Sky:
-    - _Shrine::Kadaunar
-    - _Shrine::Jirutagumac
-    - _Shrine::Igoshon
     - _Shrine::Natak:
        notes: Grab Elixir in chest
     - _Shrine::Gikaku
@@ -294,40 +290,14 @@ _route:
     - _Shrine::Minetak
     - _Shrine::Sikukuu
     - Beat Phantom Ganon
- 
-  - Korok Forest Sky:
-    - _Warp::Shrine::Kadaunar
-    - _Shrine::Mayam::Start
-    - _Shrine::Mayam
-    - _Shrine::Simosiwak:
-       notes: PROV 10
-  
-  - Korok Forest:
-    - _Shrine::Ninjis
-    - _Shrine::Pupunke::Start
-    - _Shrine::Pupunke
-    - _Shrine::Musanokir
-    - _Shrine::Sakunbomar::Start
-    - _Shrine::Sakunbomar
-    - _Shrine::Kikakin
-    - _Shrine::Mayausiy
-    - _Shrine::Kiuyoyou
-    - _Shrine::Tenmaten
-    - _Shrine::Serutabomac
-    - _Shrine::Sepapa
-    - _Shrine::Ren-iz
-    - _Shrine::Ekochiu
-    - _Shrine::Timawak
-    - _Shrine::Kisinona
-    - _Shrine::Moshapin::Start
-    - _Shrine::Moshapin  
+
 
   - Southern Sky:
     - _Warp::Shrine::Ukoojisi:
        level: Sky
     - Ascend out
     - _Shrine::Joku-usin:
-       comment: PROV 6
+       comment: PROV 10
   
   - Gerudo Highlands:
     - W> Slide to Utsushok
@@ -351,7 +321,7 @@ _route:
     - _Shrine::Karahatag
     - _Shrine::Irasak
     - _Shrine::Miryotanog:
-       notes: PROV 7
+       notes: PROV 11
     - _Shrine::Kudanisar
     - _Shrine::Mayamats
     - _Shrine::Otutsum 
@@ -397,9 +367,9 @@ _route:
     - _Shrine::Ijo-o
     - _Shrine::Tauyosipun
     - _Shrine::Otak:
-       notes: PROV 8
+       notes: PROV 12
     - _Shrine::Eutoum:
-       notes: PROV 9
+       notes: PROV 13
     - _Shrine::Sisuran
     - _Shrine::Rutafu-um
   
@@ -414,14 +384,42 @@ _route:
     - _Shrine::Oshozan-u
     - _Shrine::Orochium
     - _Shrine::Nouda:
-       notes: PROV 10
-   
+       notes: PROV 14
+ 
+  - Korok Forest Sky:
+    - _Warp::Shrine::Natak
+    - _Shrine::Igoshon
+    - _Shrine::Jirutagumac
+    - _Shrine::Kadaunar
+    - _Shrine::Mayam::Start
+    - _Shrine::Mayam
+    - _Shrine::Simosiwak:
+       notes: PROV 15
+  
+  - Korok Forest:
+    - _Shrine::Ninjis
+    - _Shrine::Pupunke::Start
+    - _Shrine::Pupunke
+    - _Shrine::Musanokir
+    - _Shrine::Sakunbomar::Start
+    - _Shrine::Sakunbomar
+    - _Shrine::Kikakin
+    - _Shrine::Mayausiy
+    - _Shrine::Kiuyoyou
+    - _Shrine::Tenmaten
+    - _Shrine::Serutabomac
+    - _Shrine::Sepapa
+    - _Shrine::Ren-iz
+    - _Shrine::Ekochiu
+    - _Shrine::Timawak
+    - _Shrine::Kisinona
+    - _Shrine::Moshapin::Start
+    - _Shrine::Moshapin  
  
   - Final:
     - Go to GSI and grab Fursuit
     - Army
     - Ganondorf
-    - GG
  
  
  
