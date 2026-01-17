@@ -239,6 +239,7 @@ _route:
     - _Shrine::Eshos
     - _Shrine::Tokiy::Start:
        coord: [2438,150,-2182]
+       line-color: lightgreen
     - _Shrine::Tokiy
     - _Shrine::Kumamayn::Start:
        comment: In Sky
@@ -246,21 +247,84 @@ _route:
     - _Shrine::Sifumim:
        notes: PROV 5
     - _Shrine::Bamitok
-    - _Item<Cooking Pot>:
-       coord: [3446.07, 226.75, -2136.45]
-       notes: Cook Endura Carrot
-    - _Material<Golden Apple>:
-       coord: [3426.98, 229.07, -2128.73]
     - _Shrine::Zanmik
     - _Shrine::Mayahisik
     - _Shrine::Jikais
     - _Shrine::Anedamimik
     - _Shrine::Marari-in
   
+  - Eldin Canyon:
+    - _Warp::Shrine::Ihen-a
+    - _Shrine::Gatanisis
+    - _Shrine::Rasitakiwak:
+       notes: PROV 6
+    - _Shrine::Jochi-ihiga::Start
+    - _Shrine::Jochi-ihiga
+    - _Shrine::Domizuin
+    - _Shrine::Mayachideg:
+       notes: PROV 7
+       
+  - Eldin Canyon Sky:
+    - _Shrine::Kadaunar
+    - _Shrine::Jirutagumac
+    - _Shrine::Igoshon
+    - _Shrine::Natak:
+       notes: Grab Elixir in chest
+    - _Shrine::Gikaku
+    - _Shrine::Mogisari
+  
+  - Akkala:
+    - _Shrine::Igashuk
+    - _Shrine::Rasiwak
+    - _Shrine::Jochi-iu
+    - _Shrine::Gemimik
+    - _Shrine::Sinatanika
+    - _Shrine::Kamatukis
+    - _Shrine::Kimayat:
+       notes: PROV 8
+    - _Shrine::Sibajitak
+    - _Shrine::Momosik::Start
+    - _Shrine::Momosik
+    - _Shrine::Sitsum
+    - _Shrine::Marakuguc
+    - _Shrine::Isisim:
+       notes: PROV 9
+    - _Shrine::Jiotak
+    - _Shrine::Mayak
+    - _Shrine::Minetak
+    - _Shrine::Sikukuu
+    - Beat Phantom Ganon
+ 
+  - Korok Forest Sky:
+    - _Warp::Shrine::Kadaunar
+    - _Shrine::Mayam::Start
+    - _Shrine::Mayam
+    - _Shrine::Simosiwak:
+       notes: PROV 10
+  
+  - Korok Forest:
+    - _Shrine::Ninjis
+    - _Shrine::Pupunke::Start
+    - _Shrine::Pupunke
+    - _Shrine::Musanokir
+    - _Shrine::Sakunbomar::Start
+    - _Shrine::Sakunbomar
+    - _Shrine::Kikakin
+    - _Shrine::Mayausiy
+    - _Shrine::Kiuyoyou
+    - _Shrine::Tenmaten
+    - _Shrine::Serutabomac
+    - _Shrine::Sepapa
+    - _Shrine::Ren-iz
+    - _Shrine::Ekochiu
+    - _Shrine::Timawak
+    - _Shrine::Kisinona
+    - _Shrine::Moshapin::Start
+    - _Shrine::Moshapin  
+
   - Southern Sky:
     - _Warp::Shrine::Ukoojisi:
        level: Sky
-       line-color: lightgreen
     - Ascend out
     - _Shrine::Joku-usin:
        comment: PROV 6
@@ -306,6 +370,8 @@ _route:
     - _Shrine::Riogok
     - _Shrine::Tsutsu-um
     - _Shrine::Usazum
+    - _Material<Golden Apple>:
+       coord: [-1933.83, 336.53, -349.95]
     - _Shrine::Sonapan
     - _Shrine::Ishodag
     - _Shrine::Sinakawak
@@ -350,73 +416,6 @@ _route:
     - _Shrine::Nouda:
        notes: PROV 10
    
-  - Eldin Canyon:
-    - _Warp::Shrine::Ihen-a
-    - _Shrine::Gatanisis
-    - _Shrine::Rasitakiwak:
-       notes: PROV 11
-    - _Shrine::Jochi-ihiga::Start
-    - _Shrine::Jochi-ihiga
-    - _Shrine::Domizuin
-    - _Shrine::Mayachideg:
-       notes: PROV 12
-       
-  - Eldin Canyon Sky:
-    - _Shrine::Kadaunar
-    - _Shrine::Jirutagumac
-    - _Shrine::Igoshon
-    - _Shrine::Natak
-    - _Shrine::Gikaku
-    - _Shrine::Mogisari
-  
-  - Akkala:
-    - _Shrine::Igashuk
-    - _Shrine::Rasiwak
-    - _Shrine::Jochi-iu
-    - _Shrine::Gemimik
-    - _Shrine::Sinatanika
-    - _Shrine::Kamatukis
-    - _Shrine::Kimayat:
-       notes: PROV 13
-    - _Shrine::Sibajitak
-    - _Shrine::Momosik::Start
-    - _Shrine::Momosik
-    - _Shrine::Sitsum
-    - _Shrine::Marakuguc
-    - _Shrine::Isisim:
-       notes: PROV 14
-    - _Shrine::Jiotak
-    - _Shrine::Mayak
-    - _Shrine::Minetak
-    - _Shrine::Sikukuu
-    - Beat Phantom Ganon
- 
-  - Korok Forest Sky:
-    - _Warp::Shrine::Kadaunar
-    - _Shrine::Mayam::Start
-    - _Shrine::Mayam
-    - _Shrine::Simosiwak:
-       notes: PROV 15
-  
-  - Korok Forest:
-    - _Shrine::Ninjis
-    - _Shrine::Pupunke::Start
-    - _Shrine::Pupunke
-    - _Shrine::Musanokir
-    - _Shrine::Sakunbomar::Start
-    - _Shrine::Sakunbomar
-    - _Shrine::Kikakin
-    - _Shrine::Mayausiy
-    - _Shrine::Kiuyoyou
-    - _Shrine::Tenmaten
-    - _Shrine::Serutabomac
-    - _Shrine::Sepapa
-    - _Shrine::Ren-iz
-    - _Shrine::Ekochiu
-    - _Shrine::Timawak
-    - _Shrine::Kisinona
-    - _Shrine::Moshapin::Start
-    - _Shrine::Moshapin
  
   - Final:
     - Go to GSI and grab Fursuit
