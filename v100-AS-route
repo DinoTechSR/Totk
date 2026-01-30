@@ -279,9 +279,9 @@ _route:
     - _Shrine::Kimayat:
        notes: PROV 8
     - _Shrine::Sibajitak
+    - _Shrine::Sitsum
     - _Shrine::Momosik::Start
     - _Shrine::Momosik
-    - _Shrine::Sitsum
     - _Shrine::Marakuguc
     - _Shrine::Isisim:
        notes: PROV 9
