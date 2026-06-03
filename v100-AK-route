@@ -1,1 +1,816 @@
+---
+_config:
+_project:
+  authors:
+    - DinoTechSR
+  contributors:
+    - savageI3
+    - Aergyl
+    - EliasNXKO
+  description: All Shrines for v1.0.0
+  name: v1.0.0 All Shrines v1
+  url: "https://restite.org/notceler-totk/?github=dinotechsr/Totk/main/Totk-AS-v100-v1" 
+  
+  #STICK means to use a Zonai Storage Stick Clip in the shrine
+  #PROV means proving grounds
+  #Tutorial for wingflip and Intro Clip will be coming soon
+  # If there isnt a movement marker before the next thing, pocket rocket or Glide if using jetpack to the next goal
+  # Slide means "cart slide" unless mentioned otherwise
+  # To use pocket rocket in a shrine: Grab a shield, drop the shield, and pick up the rocket shield (weapon and shield have to be zuggled out of the shrine)
+  # Directionals are combined with other commands at the very beginning (always capitalized)
+_route:
+  - Overview:
+    - .link([Splits File] https://drive.google.com/file/d/1UoLfjEajmgWj4O4yNQdigU-5zynmMGLp/view?usp=sharing)
+    - .link([What Does N< Mean?] https://docs.google.com/drawings/d/1M4rwnU_A8izpY-yLnVToBowt4p-td5o6LXjBdohlwNw/edit?usp=sharing)
+    - Directionals are UNFINISHED! If you would like directionals in your route, DM @DinoTechSR on discord and ill correct them
+  - Intro:
+    - Perform Intro Clip
+  - Great Sky Island:
+    - _Special::StartPos Sky<Room of Awakening>:
+       comment:
+    - _Equipment::Weapon<Decayed Master Sword>
+    - Perform Cog Skip .link([(Guide)] https://www.youtube.com/watch?v=U64qbYpZOns)
+    - _Chest<Wing x3>:
+       coord: [379.75,1500,-1698.75]
+       notes: dupe 22 wings
+       line-color: white
+    - Title Card:
+       coord: [433.5,1500,-1693.75]
+    - _Npc<Steward Construct>:
+       coord: [449.86, 1640.83, -1310.45]
+       comment: Purah Pad
+    - Wing to ToT, defeat construct with wings, and activate the button; do not touch the ground
+    - _Location::TempleofTime:
+       hide-icon-on-map: true
+    - _Enemy<Soldier Construct>:
+       coord: [453.3, 1552.01, -897.25]
+       notes: Pick up the Broadsword and Shield
+    - _Npc<Temple of Time Door>:
+       coord: [453.51, 1556.17, -849.75]
+       comment: The Closed Door
+    - QDZ Broadsword into the prologue
+    - DZuggle 1 MNF out of the prologue
+    - _Warp::Location<Up Top>:
+       coord: [426.5,1500,-1681.25]
+    - _Shrine::Gutanbac:
+       comment: Ascend QDS
+    - _Cave::Bottomless01
+    - _Equipment::Shield<Flame Emitter Shield>:
+       coord: [745.41, 1650.87, -1368.7]
+    - _Material<Bomb Flower>:
+       coord: [744.35, 1647.04, -1344.69]
+    - _KeyItem::EnergyCell:
+       comment: Battery Throw
+    - _Shrine::In-isa:
+       notes: Dupe Bomb Shield, 20 bombs, and fuse rock in shrine to weapon (rock MNF) 
+    - _Shrine::Ukouh
+    - _Location<Temple of Time>:
+       coord: [453.51, 1556.17, -849.75]
+    - _MainQuest::TheClosedDoor
+    - _Location<4-Heart Door>:
+       coord: [453.51, 1573.47, -760.25]
+       comment: Attempt to open
+    - _Warp::ROA
+    - _Shrine::Nachoyah
+    - _Warp::Shrine::Ukouh
+    - _Location<Temple of Time>:
+       coord: [453.51, 1556.17, -849.75]
+    - _GoddessStatue::TempleofTime
+    - _Location<4-Heart Door>:
+       coord: [453.51, 1573.47, -760.25]
+       comment: Open  
+    - _Location<Deposit the Decayed Master Sword>:
+       coord: [453.76, 1579.32, -636.17]
+  
+  - Purah:
+    - Dive down to surface east
+    - _Material<Splash Fruit x3>:
+       coord: [884.24, 116.18, -543.12]
+    - _Chest<Rocket x3>:
+       coord: [891.57, 118.09, -541.65]
+    - Dupe to 12 Rockets (along with Wings)
+    - PRAF to Lookout Landing
+    - _Place::LookoutLanding:
+       hide-icon-on-map: true
+    - _Npc<Josha>:
+       coord: [-238.97, 132.32, 147.92]
+       comment: To the Kingdom of Hyrule
+    - PRAF to shrine; activate but don't enter
+    - _Location::HyruleCastleTownRuins:
+       hide-icon-on-map: true
+    - _Location::CentralSquare:
+       hide-icon-on-map: true
+    - _Shrine<Kyononis (activate)>:
+       coord: [-205.15, 123, 451.47]
+    - PRAF (new shield) to Hoz
+    - _Location::FirstGatehouse:
+       hide-icon-on-map: true
+    - _Npc<Hoz>:
+       coord: [-334.93, 238.96, 845.94]
+       comment: Crisis at Hyrule Castle
+    - Wing to Docks, run through the tunnel, bomb the switch, and get the Hylian Shield:
+       notes: On the Wing, fuse a Rocket to the Broadsword and damage down to 1-Durability for WST (2 hits after the "Badly Damaged" message)
+    - _Location::Docks:
+       hide-icon-on-map: true
+    - _Equipment::Shield<Hylian Shield>:
+       coord: [-154, 141.78, 1157.37] 
+    - Dupe to 4 Shields; keep one at Full-Durability
+    - Break crates for at least 5 arrows    
+    - Fuse a Barrel to the Broadsword
+    - WST Broadsword onto MNF
+    - _Warp::Shrine::Kyononis:
+       comment: WARP
+    - PRAF back to LL and receive the Paraglider. Use the Broadsword as the rocket holder; do not swing it or it will break.
+    - _Tower::LookoutLanding:
+       comment: Do NOT Launch from the tower
+  
+  - UPR:
+    - _Warp::Shrine::Gutanbac:
+       level: Sky
+    - .link([Perform UPR] https://docs.google.com/presentation/d/14M4fUh2k582GVtFAb3VmZmG2oJg9q-ATHMdQa80ErYI/edit?usp=sharing)
+    - Map Zuggle 8 MNFs
+  - To Dragonhead:
+    - _Tear::G03
+    - _Korok::PF07
+    - _Korok::PF11
+    - _Korok::PF17
 
+    - _Item<Soldier's Spear>:
+        coord: [488.72, 115.71, -1647.81]
+    - _Korok::PF15
+    - _Korok::PF16
+    - _Korok::PF18
+    - _Korok::PF20
+    - _Item<Fleet-Lotus Seeds>:
+        coord: [456.27, 115.86, -2007.45]
+    - _Item<Electric Wizzrobe>:
+        coord: [283.19, 151.91, -2314.28]
+        notes: Zonaite Sword
+    - _Korok::PF23
+    - _Material<Farosh Horn>:
+       coord: [196,150,-2110]
+       comment: Speed Food
+       notes: dupe 25
+    - _Material<Fairy>:
+        coord: [926.96, 667.61, -2131.03]
+        notes: In sky, dupe 100
+    - _Item<Boulder>:
+        coord: [1518.52, 294.83, -2491.75]
+        notes: Fuse to spear. Used for Boulder Koroks
+    - _Material<Topaz>:
+        coord: [1516.64, 310.19, -2596.76]
+        notes: Dupe 50
+    - _Enemy<White-Maned Lynel>:
+        coord: [1464.46, 311.94, -3036.49]
+    - _Item<Stone Slab>:
+        coord: [1329.79, 195.26, -3252.81]
+    - _Npc<Beedle>:
+        coord: [1519.82, 165.98, -3476.43]
+        notes: sell 22 farosh horns (enough for 50 bananas)
+    - _Item<Cooking Pot>:
+        coord: [1573.26, 165.96, -3530.56]
+        notes: Cook 1 speed food (1 farosh horn, 4 lotus). if its raining, go to dondons up north
+    - Eat Speed Food. DO NOT GET ANY OTHER FOOD ITEMS UNTIL YIGA MAN
+  
+  - Dragonhead Sky:
+    - _Dispenser::S02:
+       level: Sky
+    - _Korok::PFS03
+    - _Item<Big Battery>:
+        coord: [1041.73, 924.81, -3367.81]
+        notes: Dupe 20
+    - _Korok::PFS02
+    
+  - Plateau Setup:  
+    - _Npc<Banana Salesman>:
+       coord: [-995,150,-2019]
+       notes: buy 50 bananas, clip to autobuild
+    - .link([Do Jetpack] https://docs.google.com/presentation/d/1xl_yAa2wLSV68cfRu6mfQHc90ALUATcG_oeM9y_4gXM/edit?usp=sharing)
+  
+  - Korok ASMR 1:
+    - _Warp::Tower::LookoutLanding:
+       line-color: aqua
+       level: Surface
+    - _Korok::LL42
+    - _Korok::LL43
+    - _Korok::LL41
+    - _Korok::LL37
+    - _Korok::LL38
+    - _Korok::LL32
+    - _Korok::LL36
+    - _Korok::SS07::Start
+    - _Korok::SS07::End
+    - _Korok::SS08
+    - _Korok::LL39
+    - _Korok::SS10
+    - _Korok::SS05
+    - _Korok::SS03
+    - _Korok::SS06
+    - _Korok::SS04
+    - _Korok::LL27
+    - _Korok::LL15
+    - _Korok::TR20
+    - _Korok::TR21::Start
+    - _Korok::TR21::End
+    - _Korok::TR18
+    - _Korok::EC46
+    - _Korok::EC41
+    - _Korok::EC44
+    - _Korok::EC35
+    - _Korok::EC26
+    - _Korok::EC29
+    - _Korok::EC32
+    - _Korok::EC36::Start
+    - _Korok::EC36::End
+    - _Korok::EC39
+    - _Korok::EC42::Start
+    - _Korok::EC45
+    - _Korok::EC48
+    - _Korok::SS01
+    - _Korok::SS02
+    - _Korok::EC59
+    - _Korok::EC60
+    - _Korok::EC58
+    - _Korok::EC57
+    - _Korok::SS13::Start
+    - _Korok::SS09
+    - _Korok::SS12
+    - _Korok::SS13::End
+    - _Korok::SS15
+    - _Korok::SS11
+    - _Korok::SS14
+    - _Korok::LL46
+    - _Item<SS17 Start>:
+       coord: [808,150,-27]
+    - _Korok::SS17
+    - _Korok::LL49
+    - _Korok::SS30::Start
+    - _Korok::SS21
+    - _Korok::SS20
+    - _Korok::LL57
+    - _Korok::SS26::Start
+    - _Korok::SS26::End
+    - _Korok::LL62
+    - _Korok::LL58
+    - _Korok::LL53
+    - _Korok::LL54
+    - _Korok::HF07
+    - _Korok::LL56
+    - _Korok::LL50
+    - _Korok::LL47
+    - _Korok::LL48
+    - _Korok::LL44
+    - _Korok::LL40
+    - _Korok::LL33
+    - _Item<LL23 Start>:
+       coord: [-953,150,685]
+    - _Korok::LL23
+    - _Korok::LL34
+    - _Korok::LL35
+    - _Korok::LL28
+    - _Korok::LL29
+    - _Korok::LL19
+    - _Korok::LL12
+    - _Korok::LL05::Start
+    - _Korok::TR19
+    - _Korok::LL04
+    - _Korok::LL02
+    - _Korok::LL03
+    - _Korok::LL07
+    - _Korok::LL06
+    - _Korok::LL13
+    - _Korok::LL10
+    - _Korok::LL09
+    - _Korok::LL17
+    - _Korok::LL21
+    - _Korok::LL22
+    - _Korok::LL20
+    - _Korok::LL16::Trail
+    - _Korok::LL25
+    - _Korok::LL26
+    - _Korok::LL31
+    - _Korok::LL30
+    - _Korok::LL24
+    - _Korok::LL18
+    - _Korok::LL14
+    - _Korok::LL11
+    - _Korok::LL01
+    - _Korok::TR16
+    - _Korok::TR15
+    - _Korok::LB02::Start
+    - _Korok::LB03
+    - _Korok::LB02::End
+    - _Korok::LB08
+    - _Korok::TR17::Start
+    - _Korok::TR17::End
+    - _Korok::LB17
+    - _Item<LL08 Start>:
+       coord: [-1060,150,1060]
+    - _Korok::LL08
+    - _Korok::LB25
+    - _Korok::LB35
+    - _Korok::LB42
+    - _Korok::LB51
+    - _Korok::LB56
+    - _Korok::LB52
+    - _Korok::LL45
+    - _Korok::LL52
+    - _Korok::LL51
+    - _Korok::LB57
+    - _Korok::LB58
+    - _Korok::LB55
+    - _Korok::LB59
+    - _Korok::HF02
+    - _Korok::HF01::Start
+    - _Korok::HF01::End
+    - _Korok::HF04
+    - _Korok::HF11
+    - _Korok::HF03
+    - _Korok::LB61
+    - _Korok::HF06
+    - _Item<GH08 Start>:
+       coord: [-2832,150,-420]
+    - _Korok::GH08
+    - _Korok::HF12
+    - _Korok::HF09
+    - _Item<HF08 Start>:
+        coord: [-2486,150,-496]
+    - _Korok::HF17
+    - _Korok::HF16
+    - _Korok::HF18
+    - _Korok::HF27
+    - _Korok::HF30
+    - _Korok::GH34
+    - _Korok::GC01
+    - _Korok::GC02
+    - _Korok::GC03
+    - _Korok::GC06
+    - _Korok::GC12
+    - _Korok::GC09::Start
+    - _Korok::GC09::End
+    - _Korok::GC11
+    - _Korok::GC13
+    - _Item<GC16 Start>:
+       coord: [-2253.75,150,-2358.5]
+    - _Korok::GC16
+    - _Korok::GC23
+    - _Korok::GC27
+    - _Korok::GC38
+    - _Korok::GC40
+    - _Shrine::Siwakama:
+       notes: GET WARP, DO NOT BEAT SHRINE
+    - _Korok::GC50::Start
+    - _Korok::GC50::End
+    - _Korok::GC51
+    - _Korok::GCS02:
+       notes: in sky. GAS Launch
+    - _Korok::GC46
+    - _Korok::GC47
+    - _Korok::GC48
+    - _Korok::GC43
+    - _Korok::GC44
+    - _Korok::PF88
+    - _Korok::PF84
+    - _Korok::PF86::Start
+    - _Korok::PF76
+    - _Korok::PF73::Start
+    - _Korok::PF73::End
+    - _Korok::PF65
+    - _Korok::PF55
+    - _Korok::PF54
+    - _Korok::PF53
+    - _Korok::PF59
+    - _Korok::PF72
+    - _Korok::PF74
+    - _Korok::PF67::Start
+    - _Korok::PF75
+    - _Korok::PF70
+    - _Korok::PF61
+    - _Korok::PF57
+    - _Korok::PF58
+    - _Korok::PF50
+    - _Korok::PF44
+    - _Korok::PF38
+    - _Korok::RW18
+    - _Korok::PF45
+    - _Korok::PF49
+    - _Korok::PF52
+    - _Korok::PF64
+    - _Korok::PF67::End
+    - _Korok::RW41::Start
+    - _Item<RW32 Start>:
+       coord: [2198,150,-3492]
+    - _Korok::RW32
+    - _Korok::RW31
+    - _Item<RW26 Start>:
+       coord: [2548,150,-3186]
+    - _Korok::RW26
+    - _Korok::RW34
+    - _Korok::RW42::Start
+    - _Korok::RW42::End
+    - _Korok::RW41::End
+    - _Item<RW43 Start>:
+       coord: [1986.5,150,-3913]
+    - _Korok::RW43
+    - _Korok::PF78
+    - _Korok::PF81
+    - _Korok::PF82::Start
+    - _Korok::PF83
+    - _Korok::PF82::End
+    - _Korok::PF79
+    - _Korok::PF77
+    - _Korok::PF80
+    - _Korok::PF85
+    - _Korok::PF86
+    - _Korok::PF87
+    - _Korok::PF68::Start
+    - _Korok::PF60
+    - _Korok::PF68::End
+    - _Korok::PF69
+    - _Korok::PF63
+    - _Korok::PF62::Start
+    - _Korok::PF66
+    - _Korok::PF62::End
+    - _Korok::PF56
+    - _Korok::GC39
+    - _Korok::GC41
+    - _Korok::GC36
+    - _Korok::GC33
+    - _Korok::GC21::Start
+    - _Korok::PF30
+    - _Korok::HF74
+    - _Korok::HF73
+    - _Korok::HF71
+    - _Korok::HF67
+    - _Korok::HF68::Start
+    - _Korok::HF68::End
+    - _Korok::HF63
+    - _Korok::HF62
+    - _Korok::HF72
+    - _Korok::GC21::End
+    - _Korok::GC26
+    - _Korok::GC19::Start
+    - _Korok::GC19::End
+    - _Korok::GC08
+    - _Korok::GC05::Start
+    - _Korok::GC05::End
+    - _Korok::HF56
+    - _Korok::HF51
+    - _Korok::HF41
+    - _Korok::HF46
+    - _Korok::HF44
+    - _Korok::HF40
+    - _Korok::HF36
+    - _Korok::HF33
+    - _Korok::HF29
+    - _Korok::HF24
+    - _Korok::HF26
+    - _Korok::HF10::Start
+    - _Korok::HF20
+    - _Korok::HF19
+    - _Korok::HF14
+    - _Korok::HF15
+    - _Korok::HF10::End
+    - _Korok::HF05
+    - _Korok::LL61
+    - _Korok::LL59
+    - _Item<LL55 Start>:
+       coord: [-1113,150,-421]
+    - _Korok::LL55
+    - _Korok::HF22::Start
+    - _Korok::LL60
+    - _Korok::HF13
+    - _Korok::HF22::End
+    - _Korok::HF25
+    - _Korok::HF34
+    - _Korok::HF35
+    - _Korok::HF38::Start
+    - _Korok::HF38::End
+    - _Korok::HF37
+    - _Item<HF39 Start>:
+       coord: [-651,150,-1382]
+    - _Korok::HF39
+    - _Korok::HF32
+    - _Korok::HF28
+    - _Korok::HF31
+    - _Korok::HF23
+    - _Korok::HF21
+    - _Korok::PF14::Start
+    - _Korok::PF06
+    - _Korok::HF43::Start
+    - _Korok::HF43::End
+    - _Korok::HF45
+    - _Korok::HF50::Start
+    - _Korok::HF50::End
+    - _Korok::HF42
+    - _Korok::HF58::Start
+    - _Korok::HF52
+    - _Korok::HF47
+    - _Korok::HF49
+    - _Korok::HF55
+    - _Korok::HF58::End
+    - _Korok::HF57
+    - _Korok::HF60
+    - _Korok::HF65
+    - _Korok::HF64
+    - _Item<HF54 Start>:
+       coord: [-684.25,150,-1842]
+    - _Korok::HF54
+    - _Korok::HF66
+    - _Korok::HF61
+    - _Korok::HF70
+    - _Korok::PF34::Start
+    - _Korok::HF75
+    - _Korok::PF31
+    - _Korok::PF33
+    - _Korok::PF37
+    - _Korok::PF36
+    - _Korok::PF26
+    - _Korok::PF28
+    - _Korok::PF25
+    - _Korok::PF22::Start
+    - _Korok::PF22::End
+    - _Item<PF 21 Start>:
+       coord: [348.5,150,-2155.5]
+    - _Korok::PF21
+    - _Korok::SS72::Start
+    - _Korok::PF24
+    - _Item<SS70 Start>:
+       coord: [1241,150,-1941]
+    - _Korok::SS70
+    - _Korok::SS69
+    - _Korok::SS67
+    - _Korok::SS66
+    - _Korok::SS63::Start
+    - _Korok::SS63::End
+    - _Korok::SS61
+    - _Korok::SS59
+    - _Korok::SS64
+    - _Korok::SS68
+    - _Korok::SS60::Start
+    - GAS Launch up to the next koroks
+    - _Korok::SSS06:
+       notes: In Sky
+    - _Item<SSS07 Start>:
+       coord: [1301.5,1500,-1976.75]
+       notes: In Sky
+    - _Korok::SS71:
+       notes: In Sky
+    - _Korok::SS72::End
+    - _Korok::PF29
+    - _Korok::PF39
+    - _Korok::PF42
+    - _Korok::PF40
+    - _Korok::PF41
+    - _Korok::PF47
+    - _Korok::PF48
+    - _Korok::PF51
+    - _Korok::PF43
+    - _Korok::PF35
+    - _Korok::PF27
+    - _Korok::PF32
+    - _Korok::PF34::End
+    - _Korok::HF69
+    - _Korok::PF19
+    - _Korok::HF59
+    - _Korok::HF53
+    - _Korok::PF12::Start
+    - _Korok::HF48
+    - _Korok::PF13
+    - _Korok::PF10
+    - _Korok::PF12::End
+    - _Korok::PF09
+    - _Korok::PF05
+    - _Korok::PF04
+    - _Korok::PF02
+    - _Korok::PF03::Start
+    - _Korok::SS39
+    - _Korok::PF01
+    - _Korok::PF03::End
+    - _Korok::PF08
+    - _Korok::SS51
+    - _Korok::SS44
+    - _Korok::SS35
+    - _Korok::SS32
+    - _Korok::SS30::End
+    - _Korok::SS25
+    - _Korok::SS16::Start
+    - _Korok::SS19
+    - _Korok::SS16::End
+    - _Korok::SS18
+    - _Korok::SS23
+    - _Korok::SS24
+    - _Korok::SS27::Start
+    - _Korok::SS36
+    - _Korok::SS33
+    - GAS Launch up to The Next Korok (In Sky)
+    - _Korok::SSS01:
+       notes: In Sky
+    - _Korok::SS38
+    - _Korok::SS45
+    - _Korok::SS41
+    - _Korok::SS42
+    - _Korok::SS40
+    - _Korok::SS31
+    - _Korok::SS27::End
+    - _Korok::SS29
+    - _Korok::SS22
+    - _Korok::SS28::Start
+    - _Korok::SS28::End
+    - _Korok::UZ63
+    - _Korok::UZ65
+    - _Korok::UZ66
+    - _Korok::UZ62
+    - _Korok::UZ73::Start
+    - _Korok::UZ70::Trail
+    - _Korok::UZ64
+    - _Korok::UZ69
+    - _Item<UZ60 Start>:
+       coord: [4172,150,-447] 
+    - _Korok::UZ60
+    - _Korok::UZ71::Start
+    - _Korok::UZ59
+    - _Korok::UZ61
+    - _Korok::UZ67
+    - _Korok::UZ68
+    - _Korok::UZ71::End
+    - _Korok::ML01
+    - _Korok::ML02
+    - _Korok::ML03
+    - GAS Launch up to the next 3 Koroks (In Sky)
+    - _Korok::MLS02:
+       notes: In Sky
+    - _Korok::MLS01:
+       notes: In Sky
+    - _Korok::MLS03:
+       notes: In Sky
+    - _Korok::ML10
+    - _Korok::ML11
+    - _Korok::ML20
+    - _Korok::ML30
+    - _Korok::ML36
+    - _Korok::ML40
+    - _Korok::ML37
+    - _Korok::ML25
+    - _Korok::ML29
+    - _Korok::ML42::Start
+    - _Korok::ML33
+    - _Korok::ML21
+    - _Korok::ML13
+    - _Korok::ML15
+    - _Korok::ML14
+    - _Korok::ML12
+    - _Korok::ML07
+    - _Korok::ML08::Start
+    - _Korok::ML08::End
+    - _Korok::ML04
+    - _Korok::ML06
+    - _Korok::ML05
+    - _Korok::UZ73::End
+    - _Korok::UZ72
+    - _Korok::SS34
+    - _Korok::ML09
+    - _Korok::SS47
+    - _Korok::SS48
+    - _Korok::SS46
+    - _Korok::SS37
+    - _Korok::SS43
+    - _Korok::SS49
+    - _Korok::SS50
+    - _Korok::SS54
+    - _Korok::SS57
+    - _Korok::SS55
+    - _Korok::SS53
+    - _Korok::SS52
+    - _Korok::SS56
+    - _Korok::SS58
+    - GAS Launch up to the next 4 Koroks
+    - _Korok::SSS03:
+       notes: In Sky
+    - _Korok::SSS05:
+       notes: In Sky
+    - _Item<SSS04 Start>:
+       coord: [2404,1500,-1818]
+       notes: In Sky
+    - _Korok::SSS04:
+       notes: In Sky
+    - _Korok::SSS02
+    - _Korok::SS60::End
+    - _Korok::RW01
+    - _Korok::RW02
+    - _Korok::RW04
+    - _Korok::RW06
+    - _Korok::RW08
+    - _Korok::RW11
+    - _Korok::RW13
+    - _Korok::RW15
+    - _Korok::RW19
+    - _Korok::RW23
+    - _Korok::RW24::Start
+    - _Korok::RW14
+    - _Korok::RW12
+    - _Korok::RW07
+    - _Korok::RW05
+    - _Korok::RW09
+    - _Item<RW17 Start>:
+       coord: [2410,150,-2664]
+    - _Korok::RW17
+    - _Korok::RW20
+    - _Korok::RW22
+    - _Korok::RW24::End
+    - _Korok::RW21
+    - GAS Launch up for the next 2 Koroks
+    - _Korok::RWS02:
+       notes: In Sky
+    - _Korok::RWS01:
+       notes: In Sky
+    - _Korok::RW16
+    - _Korok::RW10
+    - _Korok::ML35
+    - _Korok::ML32
+    - _Korok::ML27
+    - _Korok::RW03
+    - _Korok::ML28
+    - _Korok::ML24
+    - _Korok::ML18
+    - _Korok::ML19::Start
+    - _Korok::ML16
+    - _Korok::ML19::End
+    - _Korok::ML17
+    - _Korok::ML26::Start
+    - _Item<ML23 Start>:
+       coord: [3018,150,-2036]
+    - _Korok::ML23
+    - _Korok::ML22
+    - _Korok::ML26::End
+    - _Korok::ML31
+    - _Korok::ML34
+    - _Korok::ML39::Start
+    - _Korok::ML39::End
+    - _Korok::ML38
+    - _Korok::ML43
+    - _Korok::ML45
+    - _Korok::ML42::End
+    - _Korok::ML41
+    - _Korok::ML44
+    - _Korok::ML46
+    - _Korok::ML47
+    - _Korok::RW25
+    - _Korok::RW36::Start
+    - _Korok::RW27
+    - _Korok::RW28
+    - _Korok::RW40::Start
+    - _Item<RW29 Start>:
+       coord: [3083,150,-3387]
+    - _Korok::RW29
+    - _Korok::RW39
+    - _Korok::RW40::End
+    - _Korok::RW35
+    - _Korok::RW30
+    - _Korok::RW33
+    - _Korok::RW36::End
+    - _Korok::RW37
+    - _Korok::RW38
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
