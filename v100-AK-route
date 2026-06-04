@@ -133,11 +133,8 @@ _route:
     - _Tear::G03
     - _Korok::PF07
     - _Korok::PF11
-    - _Korok::PF17
-
     - _Item<Soldier's Spear>:
         coord: [488.72, 115.71, -1647.81]
-    - _Korok::PF15
     - _Korok::PF16
     - _Korok::PF18
     - _Korok::PF20
@@ -155,18 +152,15 @@ _route:
         coord: [926.96, 667.61, -2131.03]
         notes: In sky, dupe 100
     - _Item<Boulder>:
-        coord: [1518.52, 294.83, -2491.75]
-        notes: Fuse to spear. Used for Boulder Koroks
-    - _Material<Topaz>:
-        coord: [1516.64, 310.19, -2596.76]
-        notes: Dupe 50
+        coord: [1171.6, 274.68, -2550.12]
+        notes: Fuse to Spear (for boulder koroks)
     - _Enemy<White-Maned Lynel>:
         coord: [1464.46, 311.94, -3036.49]
     - _Item<Stone Slab>:
         coord: [1329.79, 195.26, -3252.81]
     - _Npc<Beedle>:
         coord: [1519.82, 165.98, -3476.43]
-        notes: sell 22 farosh horns (enough for 50 bananas)
+        notes: sell 45 farosh horns (enough for 50 bananas and arrows for the rest of the run)
     - _Item<Cooking Pot>:
         coord: [1573.26, 165.96, -3530.56]
         notes: Cook 1 speed food (1 farosh horn, 4 lotus). if its raining, go to dondons up north
@@ -191,8 +185,11 @@ _route:
     - _Warp::Tower::LookoutLanding:
        line-color: aqua
        level: Surface
+    - _Korok::LL43::Trail
+    - _Item<Treasure Chest>:
+        coord: [-522.39, 134.69, 312.49]
+        notes: Dupe 50
     - _Korok::LL42
-    - _Korok::LL43
     - _Korok::LL41
     - _Korok::LL37
     - _Korok::LL38
@@ -223,9 +220,20 @@ _route:
     - _Korok::EC36::Start
     - _Korok::EC36::End
     - _Korok::EC39
-    - _Korok::EC42::Start
     - _Korok::EC45
+    - _Korok::EC42::Start
+    - _Korok::EC37
+    - _Korok::EC42::End
+    - _Korok::EC43
+    - GAS Launch up to the Next 2 Koroks
+    - _Korok::ECS01:
+       notes: In Sky
+    - _Korok::ECS02:
+       notes: In Sky
     - _Korok::EC48
+    - _Npc<Beedle>:
+        coord: [1092.11, 127.43, 1096.44]
+        notes: Buy Arrows
     - _Korok::SS01
     - _Korok::SS02
     - _Korok::EC59
@@ -244,6 +252,9 @@ _route:
        coord: [808,150,-27]
     - _Korok::SS17
     - _Korok::LL49
+    - _Npc<Beedle>:
+        coord: [942.29, 133.85, -153.14]
+        notes: Buy Arrows
     - _Korok::SS30::Start
     - _Korok::SS21
     - _Korok::SS20
@@ -272,6 +283,7 @@ _route:
     - _Korok::LL19
     - _Korok::LL12
     - _Korok::LL05::Start
+    - _Korok::LL05::End
     - _Korok::TR19
     - _Korok::LL04
     - _Korok::LL02
@@ -297,8 +309,9 @@ _route:
     - _Korok::LL01
     - _Korok::TR16
     - _Korok::TR15
-    - _Korok::LB02::Start
     - _Korok::LB03
+    - _Korok::LB02::Start
+    - _Korok::TR14
     - _Korok::LB02::End
     - _Korok::LB08
     - _Korok::TR17::Start
@@ -335,6 +348,7 @@ _route:
     - _Korok::HF09
     - _Item<HF08 Start>:
         coord: [-2486,150,-496]
+    - _Korok::HF08
     - _Korok::HF17
     - _Korok::HF16
     - _Korok::HF18
@@ -357,8 +371,6 @@ _route:
     - _Korok::GC27
     - _Korok::GC38
     - _Korok::GC40
-    - _Shrine::Siwakama:
-       notes: GET WARP, DO NOT BEAT SHRINE
     - _Korok::GC50::Start
     - _Korok::GC50::End
     - _Korok::GC51
@@ -373,15 +385,22 @@ _route:
     - _Korok::PF84
     - _Korok::PF86::Start
     - _Korok::PF76
+    - _Npc<Beedle>:
+        coord: [485.16, 152.78, -3366.72]
+        notes: Buy Arrows
     - _Korok::PF73::Start
     - _Korok::PF73::End
     - _Korok::PF65
+    - _Korok::PF71
     - _Korok::PF55
     - _Korok::PF54
     - _Korok::PF53
     - _Korok::PF59
     - _Korok::PF72
     - _Korok::PF74
+    - _Npc<Beedle>:
+        coord: [1519.82, 165.98, -3476.43]
+        notes: Buy Arrows
     - _Korok::PF67::Start
     - _Korok::PF75
     - _Korok::PF70
@@ -421,7 +440,7 @@ _route:
     - _Korok::PF77
     - _Korok::PF80
     - _Korok::PF85
-    - _Korok::PF86
+    - _Korok::PF86::End
     - _Korok::PF87
     - _Korok::PF68::Start
     - _Korok::PF60
@@ -484,6 +503,9 @@ _route:
     - _Korok::HF25
     - _Korok::HF34
     - _Korok::HF35
+    - _Npc<Beedle>:
+        coord: [-1387.96, 136.06, -1319.88]
+        notes: Buy Arrows
     - _Korok::HF38::Start
     - _Korok::HF38::End
     - _Korok::HF37
@@ -554,11 +576,14 @@ _route:
     - _Item<SSS07 Start>:
        coord: [1301.5,1500,-1976.75]
        notes: In Sky
+    - _Korok::SSS07:
+       notes: In Sky
     - _Korok::SS71:
        notes: In Sky
     - _Korok::SS72::End
     - _Korok::PF29
     - _Korok::PF39
+    - _Korok::PF46
     - _Korok::PF42
     - _Korok::PF40
     - _Korok::PF41
@@ -570,6 +595,9 @@ _route:
     - _Korok::PF27
     - _Korok::PF32
     - _Korok::PF34::End
+    - GAS Launch up to the Next Korok
+    - _Korok::PFS01:
+       notes: In Sky
     - _Korok::HF69
     - _Korok::PF19
     - _Korok::HF59
@@ -578,6 +606,9 @@ _route:
     - _Korok::HF48
     - _Korok::PF13
     - _Korok::PF10
+    - _Korok::PF14::End
+    - _Korok::PF15
+    - _Korok::PF17
     - _Korok::PF12::End
     - _Korok::PF09
     - _Korok::PF05
@@ -597,6 +628,8 @@ _route:
     - _Korok::SS16::Start
     - _Korok::SS19
     - _Korok::SS16::End
+    - _Shrine::Jonsau:
+       notes: GET WARP, DO NOT BEAT SHRINE
     - _Korok::SS18
     - _Korok::SS23
     - _Korok::SS24
@@ -629,6 +662,9 @@ _route:
        coord: [4172,150,-447] 
     - _Korok::UZ60
     - _Korok::UZ71::Start
+    - _Korok::UZ49
+    - _Korok::UZ43
+    - _Korok::UZ46
     - _Korok::UZ59
     - _Korok::UZ61
     - _Korok::UZ67
@@ -733,6 +769,10 @@ _route:
     - _Korok::ML28
     - _Korok::ML24
     - _Korok::ML18
+    - _Korok::SS65:
+       notes: Hard to see, but is at fort hateno. DO NOT FORGET
+    - _Korok::SS62:
+       notes: Hard to see, but is at fort hateno. DO NOT FORGET
     - _Korok::ML19::Start
     - _Korok::ML16
     - _Korok::ML19::End
@@ -772,6 +812,566 @@ _route:
     - _Korok::RW37
     - _Korok::RW38
     
+  - Korok ASMR 2 Sky:
+    - _Warp::ROA:
+       line-color: lime
+    - _Korok::GSI16
+    - _Korok::GSI15
+    - _Korok::GSI07
+    - _Korok::GSI08
+    - _Korok::GSI03
+    - _Korok::GSI01
+    - _Korok::GSI02
+    - _Korok::GSI05
+    - _Korok::GSI06
+    - _Korok::GSI10
+    - _Korok::GSI09
+    - _Korok::GSI12
+    - _Korok::GSI14
+    - _Korok::GSI17::Start
+    - _Korok::GSI17::End
+    - _Korok::GSI13
+    - _Korok::GSI11
+    - _Korok::GSI04::Start
+    - _Korok::GSI04::End
+    - _Korok::HFS02
+    - _Korok::HFS01
+    - _Korok::GCS01
+  
+  - Korok ASMR 2:
+    - _Item<GC28 Start>:
+       coord: [-2729,150,-2820]
+    - _Korok::GC28
+    - _Korok::GC18
+    - _Korok::GC22::Start
+    - _Korok::GH54
+    - _Korok::GH42
+    - _Korok::GH39
+    - _Korok::GH36
+    - _Korok::GH30
+    - _Item<GH31 Start>:
+       coord: [-2793,150,-1416]
+    - _Korok::GH31
+    - _Korok::GH35
+    - _Korok::GH32
+    - _Korok::GH43
+    - _Korok::GH46
+    - _Korok::GH37
+    - _Korok::GH38
+    - _Item<GH33 Start>:
+       coord: [-3846,150,-1444]
+    - _Korok::GH33
+    - _Korok::GH40
+    - _Korok::GH41
+    - _Korok::GH48
+    - _Korok::GH45
+    - _Korok::GH50
+    - _Korok::GH51
+    - _Korok::GC15
+    - _Korok::GC20
+    - _Korok::GH53
+    - _Korok::GH55
+    - _Korok::GC22::End
+    - _Korok::GC25
+    - _Korok::GC29
+    - _Korok::GC30
+    - _Korok::GC31
+    - _Item<GC32 Start>:
+       coord: [-3857,150,-3020]
+    - _Korok::GC32
+    - _Korok::GC42::Start
+    - _Korok::GC34
+    - _Korok::GC37
+    - _Korok::GC35::Start
+    - _Korok::GC35::End
+    - _Korok::GC42::End
+    - _Korok::GC45::Start
+    - _Korok::GC45::End
+    - _Korok::GC49
+    - _Korok::GC24
+    - _Korok::GH47::Start
+    - _Korok::GH49
+    - _Korok::GH47::End
+    - _Korok::GH44
+    - _Korok::GH52
+    - _Korok::GC07
+    - _Korok::GC14
+    - _Korok::GC17
+    - _Korok::GC10
+    - _Korok::GC04
+    - _Korok::GH28
+    - _Korok::GH27
+    - _Korok::GH10::Start
+    - _Korok::GH24
+    - _Korok::GH13
+    - _Korok::GH10::End
+    - _Korok::GH09
+    - _Korok::GH06
+    - _Korok::GH05
+    - _Item<GH07 Start>:
+       coord: [-3615.75,150,-408.75]
+    - _Korok::GH07
+    - _Korok::GH11
+    - _Korok::GH18
+    - _Korok::GH26
+    - _Korok::GH20
+    - _Korok::GH15
+    - _Item<GH16 Start>:
+       coord: [-3714,150,-794]
+    - _Korok::GH16
+    - _Korok::GH14
+    - _Korok::GH17
+    - _Korok::GH19
+    - _Korok::GH21
+    - _Korok::GH23
+    - _Korok::GH22
+    - _Korok::GH12::Start
+    - _Korok::GH29
+    - _Korok::GH25
+    - _Korok::GH12::End
+    - _Korok::LB60
+    - _Korok::LB54::Start
+    - _Korok::LB54::End
+    - _Item<LB49 Start>:
+       coord: [-2918,150,289]
+    - _Korok::LB49
+    - _Korok::LB50
+    - _Korok::LB48
+    - _Korok::LB45
+    - _Korok::LB40
+    - _Korok::LB37
+    - _Korok::LB46
+    - GAS Launch up to the Next Korok
+    - _Korok::GHS01:
+       notes: In Sky
+    - _Korok::GH04
+    - _Korok::GH03::Start
+    - _Korok::GH02
+    - _Korok::GH01
+    - _Korok::GH03::End
+    - _Item<LB32 Start>:
+       coord: [-3966,150,627]
+    - _Korok::LB32
+    - _Korok::LB28
+    - _Korok::LB24
+    - _Korok::LB27
+    - GAS Launch up to the Next 4 Koroks
+    - _Korok::LBS05:
+       notes: In Sky
+    - _Item<LBS01 Start>:
+       coord: [-3613.75,1500,1035.25]
+       notes: In Sky
+    - _Korok::LBS01:
+       notes: In Sky
+    - _Korok::LBS03:
+       notes: In Sky
+    - _Korok::LBS02:
+       notes: In sky, UNDER the island
+    - _Korok::LB30::Start
+    - _Korok::LB22
+    - _Korok::LB12
+    - _Korok::RP61
+    - _Korok::RP59
+    - _Korok::RP57::Trail
+    - _Korok::RP54
+    - _Korok::RP58
+    - _Korok::RP55
+    - _Korok::RP52
+    - _Korok::RP47
+    - _Korok::RP46
+    - _Korok::RP45
+    - _Korok::RP50
+    - _Korok::RP49
+    - _Korok::RP42
+    - _Korok::RP38::Start
+    - _Korok::RP28
+    - _Korok::RP33
+    - _Korok::RP38::End
+    - _Korok::RP34
+    - _Korok::RP40
+    - _Korok::RP35
+    - _Korok::RP41
+    - _Korok::RP44
+    - _Korok::RP51
+    - _Korok::RP53
+    - _Korok::RP56
+    - _Korok::RP60
+    - _Korok::LB10
+    - _Korok::LB14
+    - _Korok::LB11
+    - _Korok::LB09
+    - _Korok::LB13
+    - _Korok::LB20
+    - _Korok::LB30::End
+    - _Korok::LB31
+    - _Korok::LB33
+    - _Korok::LB36
+    - _Korok::LB39
+    - _Korok::LB38
+    - _Korok::LB34
+    - _Korok::LB41::Trail
+    - _Korok::LB53::End
+    - _Korok::LB44
+    - _Korok::LB47
+    - _Korok::LB43::Start
+    - _Korok::LB43::End
+    - _Korok::LB29
+    - _Korok::LB18
+    - _Korok::LB15
+    - _Korok::LB19
+    - _Korok::LB21
+    - _Korok::LB23
+    - GAS Launch up to the next Korok
+    - _Korok::LBS04:
+       notes: In Sky
+    - _Korok::LB26
+    - _Item<LB16 Start>:
+       coord: [-2584,150,1262]
+    - _Korok::LB16
+    - _Korok::LB06:
+       notes: In Canyon. GAS launch bach up the canyon
+    - _Korok::LB05
+    - _Korok::LB07
+    - _Korok::PS30
+    - _Korok::LB04
+    - _Korok::PS28
+    - _Korok::PS27
+    - _Korok::PS22
+    - _Korok::PS25
+    - _Korok::PS29
+    - _Korok::RP48
+    - _Korok::PS23
+    - _Korok::PS21::Start
+    - _Korok::PS21::End
+    - _Korok::RP39
+    - GAS Launch up to the Next Korok
+    - _Item<RPS04 Start>:
+       coord: [-3072,1500,2139]
+       notes: In Sky
+    - _Korok::RPS04:
+       notes: In Sky
+    - _Korok::RP43
+    - _Item<RP37 Start>:
+       coord: [-3318,150,2284]
+    - _Korok::RP37
+    - _Korok::RP36
+    - _Korok::RP32
+    - _Korok::RP27
+    - _Korok::RP26::Start
+    - _Korok::RP26::End
+    - _Korok::RP30
+    - _Korok::PS13::Start
+    - _Korok::PS13::End
+    - _Korok::RP19
+    - _Korok::RP06::Start
+    - _Korok::RP06::End
+    - _Item<RP02 Start>:
+       coord: [-3431,150,3806]
+    - _Korok::RP02
+    - _Korok::RP01
+    - _Item<RP03 Start>:
+       coord: [-3998,150,3840]
+    - _Korok::RP03
+    - Clip Into Skeleton cave
+    - _Korok::RP04
+    - _Korok::RP05
+    - Ascend Up
+    - _Korok::RP08
+    - _Korok::RP09
+    - _Korok::RP11
+    - _Korok::RP18
+    - _Korok::RP13::Start
+    - _Korok::RP17
+    - _Korok::RP14
+    - _Korok::RP16
+    - _Korok::RP13::End
+    - _Korok::RP15
+    - _Korok::RP10
+    - _Korok::RP07
+    - _Korok::RP12
+    - _Item<RP21 Start>:
+       coord: [-4420,150,3212]
+    - _Korok::RP21
+    - _Korok::RP23
+    - _Korok::RP22
+    - _Korok::RP24
+    - GAS Launch up to Next Korok
+    - _Korok::RPS03:
+       notes: In Sky
+    - _Korok::RP31
+    - _Korok::RP29
+    - _Korok::RP25
+    - GAS Launch up to the Next 2 Koroks
+    - _Korok::RPS01:
+       notes: In Sky
+    - _Item<RPS02 Start>:
+       coord: [-3105,1500,3269]
+       notes: In Sky
+    - _Korok::RPS02
+    - _Korok::RP20
+    - Sandwich Slide to the Next 2 Koroks (In Sky)
+    - _Korok::PSS03:
+       notes: In Sky
+    - _Korok::PSS01:
+       notes: In Sky
+    - _Korok::PS03
+    - _Korok::PS01
+    - _Korok::PS02
+    - _Korok::PS05
+    - _Korok::PS10
+    - _Korok::PS16
+    - _Korok::PS17
+    - _Korok::PS14::Start
+    - _Korok::PS19
+    - _Korok::PS24
+    - _Korok::PS26
+    - _Korok::PS20
+    - _Korok::PS18
+    - _Korok::LB01
+    - _Korok::PS15
+    - _Korok::PS14::End
+    - _Korok::PS11
+    - _Korok::PS12
+    - _Korok::PS07::Start
+    - _Korok::PS04
+    - _Korok::PS07::End
+    - _Korok::PS08
+    - _Korok::PS09
+    - _Korok::PS06
+    - GAS Launch up to the Next Korok 
+    - _Korok::PSS02:
+       notes: In Sky
+       
+  - Korok ASMR 3:  
+    - _Warp::Shrine::Jonsau    
+    - _Korok::UZ44::Start
+    - _Korok::UZ36
+    - _Korok::UZ45
+    - _Korok::UZ41
+    - _Korok::UZ42
+    - _Korok::UZ50::Start
+    - _Korok::UZ53
+    - _Korok::UZ50::End
+    - _Korok::UZ56
+    - _Korok::UZ52
+    - _Korok::UZ51
+    - _Korok::UZ44
+    - _Korok::UZ47
+    - _Korok::UZ32
+    - _Item<UZ26 Start>:
+       coord: [2565.75,150,468.5]
+    - _Korok::UZ26
+    - _Korok::UZ18::Start
+    - _Korok::UZ18
+    - _Korok::EC55
+    - _Korok::UZ13::Start
+    - _Korok::EC52
+    - _Korok::EC47
+    - _Korok::EC38
+    - _Korok::EC40
+    - _Korok::EC34
+    - _Korok::EC54::Start
+    - _Korok::EC49
+    - _Korok::EC53
+    - _Korok::EC50
+    - _Korok::EC54::End
+    - _Korok::EC56
+    - _Korok::UZ14
+    - _Korok::UZ13::End
+    - GAS Launch up to the Next 3 Koroks
+    - _Korok::UZS03:
+       notes: In Sky
+    - _Korok::UZS01:
+       notes: In Sky
+    - _Korok::UZS02:
+       notes: In Sky
+    - _Korok::UZ15
+    - _Korok::UZ23
+    - _Korok::UZ24
+    - _Korok::UZ20
+    - _Korok::UZ29
+    - _Korok::UZ34
+    - _Korok::UZ35
+    - _Korok::UZ39
+    - _Item<UZ38 Start>:
+       coord: [3068,150,172]
+    - _Korok::UZ38
+    - _Korok::UZ40
+    - _Korok::UZ55
+    - _Korok::UZ58
+    - _Korok::UZ57
+    - _Korok::UZ54
+    - _Korok::UZ37::Start
+    - _Korok::UZ48
+    - _Korok::UZ37::End
+    - _Korok::UZ31
+    - _Korok::UZ30
+    - _Korok::UZ22::Start
+    - _Korok::UZ22
+    - _Korok::UZ33
+    - _Korok::UZ28
+    - _Korok::UZ27
+    - _Korok::UZ25
+    - _Korok::UZ19
+    - _Korok::UZ17
+    - _Item<UZ21 Start>:
+       coord: [4700,150,547]
+    - _Korok::UZ21
+    - _Item<UZ07 Start>:
+       coord: [4480,150,934]
+    - _Korok::UZ07
+    - _Korok::UZ12::Start
+    - _Korok::UZ12::End
+    - _Korok::UZ16
+    - _Korok::UZ10
+    - _Korok::UZ11
+    - _Korok::UZ09
+    - _Korok::UZ05
+    - _Korok::UZ06
+    - _Korok::UZ08
+    - _Korok::UZ04
+    - _Korok::EC51
+    - _Korok::UM41
+    - _Korok::UM40
+    - _Korok::UM35
+    - _Korok::UM38
+    - _Korok::UZ01
+    - _Korok::UM26::Start
+    - _Korok::UM32
+    - _Korok::EC27
+    - _Korok::UM26::End
+    - _Korok::UM27
+    - _Korok::UM25::Start
+    - _Korok::UM31
+    - GAS Launch for the Next Korok
+    - _Korok::UMS03:
+       notes: In Sky
+    - _Korok::UM37
+    - _Korok::UZ03
+    - _Korok::UM42
+    - _Korok::UM39
+    - _Korok::UM36
+    - _Korok::UM34
+    - _Korok::UM33
+    - _Korok::UM29::Start
+    - _Korok::UZ02
+    - _Korok::UM30
+    - _Korok::UM29::End
+    - GAS Launch up to the Next Korok
+    - _Item<UMS02 Start>:
+       coord: [4610,1500,2283]
+       notes: In Sky
+    - _Korok::UMS02:
+       notes: In Sky
+    - _Korok::UM28
+    - _Korok::UM25::End
+    - _Korok::UM24
+    - _Korok::UM23
+    - _Korok::UM17::Start
+    - _Korok::UM19
+    - _Korok::UM17::End
+    - GAS Launch up to the Next Korok
+    - _Korok::UMS01:
+       notes: In Sky
+    - _Korok::UM01
+    - _Korok::UM05
+    - _Korok::UM09::Start
+    - _Korok::UM10
+    - _Korok::UM06
+    - _Korok::UM07::Start
+    - _Korok::UM07::End
+    - _Korok::UM08
+    - _Korok::UM12
+    - _Korok::UM11
+    - _Korok::UM16
+    - _Korok::UM18
+    - _Korok::UM21::Start
+    - _Korok::UM21::End
+    - _Korok::UM20
+    - _Korok::UM22
+    - _Korok::UM15
+    - _Korok::UM09::End
+    - _Korok::UM14
+    - _Korok::UM13
+    - _Korok::UM03
+    - _Korok::UM04
+    - _Korok::UM02
+    - _Korok::EC03::Start
+    - _Korok::EC01
+    - _Korok::EC03::End
+    - _Korok::EC04
+    - _Korok::EC02
+    - _Korok::EC05
+    - _Item<EC07 Start>:
+       coord: [2194,150,3013.5]
+    - _Korok::EC07
+    - _Korok::EC09
+    - _Korok::EC08
+    - _Korok::EC10::Start
+    - _Korok::EC10::End
+    - _Korok::EC18
+    - _Korok::EC23
+    - _Korok::EC22
+    - _Korok::EC24
+    - _Korok::EC30
+    - _Korok::EC33::Start
+    - _Korok::EC33::End
+    - _Korok::EC31
+    - _Korok::EC28
+    - _Korok::EC25
+    - _Korok::EC19
+    - _Korok::EC21
+    - _Korok::EC20
+    - _Korok::EC16
+    - _Korok::EC06::Start
+    - _Korok::EC15::Start
+    - _Korok::EC17
+    - _Korok::EC15::End
+    - _Korok::EC14
+    - _Korok::EC06::End
+    - _Korok::EC11
+    - _Korok::EC13
+    - _Korok::EC12
+    - _Korok::TR13::Start
+    - _Korok::TR01
+    - _Korok::TR02::Start
+    - _Korok::TR04
+    - _Korok::TR03::Start
+    - _Korok::TR02::End
+    - _Korok::TR03
+    - _Korok::TR09::Start
+    - _Korok::TR07
+    - _Korok::TR09::End
+    - _Korok::TR06
+    - _Korok::TR05
+    - _Korok::TR11
+    - _Korok::TR08
+    - _Korok::TR10::Start
+    - _Korok::TR10::End
+    - _Korok::TR12
+    - _Korok::TR13::End
+    - GAS Launch up for the Final 2 Koroks:
+    - _Korok::TRS01:
+       notes: In Sky
+    - _Korok::TRS02:
+       notes: In Sky
+    - Fall Down into Korok Forest. When you land on the ground, pull up the Amiibo Rune to cancel the fog:
+       coord: [384,150,2160]
+    - _Chasm::DekuTree:
+       notes: Kill Phantom Ganon
+    - Hestus Gift
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -781,12 +1381,6 @@ _route:
     
     
 
-    
-    
-    
-    
-    
-    
     
     
     
