@@ -151,9 +151,10 @@ _route:
        comment: in wooden chest
     - _Enemy<Lynel>:
        coord: [1464.46, 311.94, -3036.49]
-    - While Lynel is Dying, Dupe up to 12 topaz and ~52 Fairies
+    - While Lynel is Dying, Dupe up to 12 topaz and ~45 Fairies
     - fuse lynel mace horn to weapon. drop weapons, pick up MNF and unequip
-    - Pick up SLB, pick up claymore
+    - Pick up SLB, pick up claymore, Pickup Stick (used for army)
+    - Zuggle SLB
     - _Dispenser::S02:
        comment: In the sky
     - _Shrine::Joku-u:
@@ -161,8 +162,7 @@ _route:
     - _Item<Stone Slab>:
        coord: [1329.79, 195.26, -3252.81]
        notes: fuse to claymore
-    - Zuggle SLB
-    - Dupe 160 Sticks, 160 Carts, and 20 Rockets. Do Progressively, Dupe Most sicks before Army
+    - Dupe 90 Sticks and 170 Carts. Do Progressively before army
     - _Shrine::Joju-u-u
     - _Shrine::En-oma::Start
     - _Shrine::En-oma
@@ -170,7 +170,8 @@ _route:
     
   - Hyrule Field:
     - _Warp::Tower::LookoutLanding:
-       notes: Enter Army and Recieve Gohma Rock
+       notes: Enter Army and Recieve Gohma Rock. fuse gohma rock to a Soldier's Broadsword (get during army)
+    - dzuggle 8 times, get rid of stick and dupe inventory full of Gohma Weapons, fail drop a Soldier's Broadsword, perform ZL protection 
     - _Shrine::Jiosin
     - _Shrine::Susuyai
     - _Shrine::Mayachin
