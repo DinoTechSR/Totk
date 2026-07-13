@@ -263,6 +263,7 @@ _route:
        notes: GET WARP, DO NOT BEAT SHRINE
     - _Korok::SS18
     - _Korok::SS23
+    - _Korok::SS24
     - _Korok::SS25
     - _Korok::SS35
     - _Korok::SS44::Trail
