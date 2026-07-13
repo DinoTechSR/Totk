@@ -143,7 +143,7 @@ _route:
     - _Item<Electric Wizzrobe>:
         coord: [283.19, 151.91, -2314.28]
         notes: Zonaite Sword
-    - _Korok::PF23
+    - _Korok::PF23::Trail
     - _Material<Farosh Horn>:
        coord: [196,150,-2110]
        comment: Speed Food
@@ -194,14 +194,14 @@ _route:
     - _Korok::LL37
     - _Korok::LL38
     - _Korok::LL32
-    - _Korok::LL36
+    - _Korok::LL36::Trail
     - _Korok::SS07::Start
     - _Korok::SS07::End
     - _Korok::SS08
     - _Korok::LL39
     - _Korok::SS10
-    - _Korok::SS05
-    - _Korok::SS03
+    - _Korok::SS05::Trail
+    - _Korok::SS03::Trail
     - _Korok::SS06
     - _Korok::SS04
     - _Korok::LL27
@@ -256,6 +256,18 @@ _route:
         coord: [942.29, 133.85, -153.14]
         notes: Buy Arrows
     - _Korok::SS30::Start
+    - _Korok::SS19
+    - _Korok::SS16::Start
+    - _Korok::SS16::End
+    - _Shrine::Jonsau:
+       notes: GET WARP, DO NOT BEAT SHRINE
+    - _Korok::SS18
+    - _Korok::SS23
+    - _Korok::SS25
+    - _Korok::SS35
+    - _Korok::SS44::Trail
+    - _Korok::SS32
+    - _Korok::SS30::End
     - _Korok::SS21
     - _Korok::SS20
     - _Korok::LL57
@@ -345,7 +357,7 @@ _route:
        coord: [-2832,150,-420]
     - _Korok::GH08
     - _Korok::HF12
-    - _Korok::HF09
+    - _Korok::HF09::Trail
     - _Item<HF08 Start>:
         coord: [-2486,150,-496]
     - _Korok::HF08
@@ -405,7 +417,7 @@ _route:
     - _Korok::PF75
     - _Korok::PF70
     - _Korok::PF61
-    - _Korok::PF57
+    - _Korok::PF57::Trail
     - _Korok::PF58
     - _Korok::PF50
     - _Korok::PF44
@@ -436,7 +448,7 @@ _route:
     - _Korok::PF82::Start
     - _Korok::PF83
     - _Korok::PF82::End
-    - _Korok::PF79
+    - _Korok::PF79::Trail
     - _Korok::PF77
     - _Korok::PF80
     - _Korok::PF85
@@ -451,7 +463,7 @@ _route:
     - _Korok::PF66
     - _Korok::PF62::End
     - _Korok::PF56
-    - _Korok::GC39
+    - _Korok::GC39::Trail
     - _Korok::GC41
     - _Korok::GC36
     - _Korok::GC33
@@ -481,7 +493,7 @@ _route:
     - _Korok::HF40
     - _Korok::HF36
     - _Korok::HF33
-    - _Korok::HF29
+    - _Korok::HF29::Trail
     - _Korok::HF24
     - _Korok::HF26
     - _Korok::HF10::Start
@@ -528,7 +540,7 @@ _route:
     - _Korok::HF58::Start
     - _Korok::HF52
     - _Korok::HF47
-    - _Korok::HF49
+    - _Korok::HF49::Trail
     - _Korok::HF55
     - _Korok::HF58::End
     - _Korok::HF57
@@ -565,14 +577,6 @@ _route:
     - _Korok::SS66
     - _Korok::SS63::Start
     - _Korok::SS63::End
-    - _Korok::SS61
-    - _Korok::SS59
-    - _Korok::SS64
-    - _Korok::SS68
-    - _Korok::SS60::Start
-    - GAS Launch up to the next koroks
-    - _Korok::SSS06:
-       notes: In Sky
     - _Item<SSS07 Start>:
        coord: [1301.5,1500,-1976.75]
        notes: In Sky
@@ -588,7 +592,7 @@ _route:
     - _Korok::PF40
     - _Korok::PF41
     - _Korok::PF47
-    - _Korok::PF48
+    - _Korok::PF48::Trail
     - _Korok::PF51
     - _Korok::PF43
     - _Korok::PF35
@@ -600,14 +604,14 @@ _route:
        notes: In Sky
     - _Korok::HF69
     - _Korok::PF19
-    - _Korok::HF59
+    - _Korok::HF59::Trail
     - _Korok::HF53
     - _Korok::PF12::Start
     - _Korok::HF48
     - _Korok::PF13
     - _Korok::PF10
     - _Korok::PF14::End
-    - _Korok::PF15
+    - _Korok::PF15::Trail
     - _Korok::PF17
     - _Korok::PF12::End
     - _Korok::PF09
@@ -620,37 +624,38 @@ _route:
     - _Korok::PF03::End
     - _Korok::PF08
     - _Korok::SS51
-    - _Korok::SS44
-    - _Korok::SS35
-    - _Korok::SS32
-    - _Korok::SS30::End
-    - _Korok::SS25
-    - _Korok::SS16::Start
-    - _Korok::SS19
-    - _Korok::SS16::End
-    - _Shrine::Jonsau:
-       notes: GET WARP, DO NOT BEAT SHRINE
-    - _Korok::SS18
-    - _Korok::SS23
-    - _Korok::SS24
-    - _Korok::SS27::Start
-    - _Korok::SS36
-    - _Korok::SS33
+    - _Korok::SS61
+    - _Korok::SS59
+    - _Korok::SS64
+    - GAS Launch up to the next korok
+    - _Korok::SSS06:
+       notes: In Sky
+    - _Korok::SS68
+    - _Korok::SS60::Start
+    - _Korok::RW01
+    - _Korok::SS60::End
+    - _Korok::SS55
+    - _Korok::SS57
+    - _Korok::SS54::Trail
+    - _Korok::SS50
+    - _Korok::SS45
     - GAS Launch up to The Next Korok (In Sky)
     - _Korok::SSS01:
        notes: In Sky
     - _Korok::SS38
-    - _Korok::SS45
     - _Korok::SS41
     - _Korok::SS42
-    - _Korok::SS40
+    - _Korok::SS36
+    - _Korok::SS33
+    - _Korok::SS27::Start
+    - _Korok::SS40    
     - _Korok::SS31
     - _Korok::SS27::End
     - _Korok::SS29
     - _Korok::SS22
     - _Korok::SS28::Start
     - _Korok::SS28::End
-    - _Korok::UZ63
+    - _Korok::UZ63::Trail
     - _Korok::UZ65
     - _Korok::UZ66
     - _Korok::UZ62
@@ -671,7 +676,7 @@ _route:
     - _Korok::UZ68
     - _Korok::UZ71::End
     - _Korok::ML01
-    - _Korok::ML02
+    - _Korok::ML02::Trail
     - _Korok::ML03
     - GAS Launch up to the next 3 Koroks (In Sky)
     - _Korok::MLS02:
@@ -681,7 +686,7 @@ _route:
     - _Korok::MLS03:
        notes: In Sky
     - _Korok::ML10
-    - _Korok::ML11
+    - _Korok::ML11::Trail
     - _Korok::ML20
     - _Korok::ML30
     - _Korok::ML36
@@ -707,15 +712,11 @@ _route:
     - _Korok::SS34
     - _Korok::ML09
     - _Korok::SS47
-    - _Korok::SS48
+    - _Korok::SS48::Trail
     - _Korok::SS46
     - _Korok::SS37
     - _Korok::SS43
     - _Korok::SS49
-    - _Korok::SS50
-    - _Korok::SS54
-    - _Korok::SS57
-    - _Korok::SS55
     - _Korok::SS53
     - _Korok::SS52
     - _Korok::SS56
@@ -723,20 +724,23 @@ _route:
     - GAS Launch up to the next 4 Koroks
     - _Korok::SSS03:
        notes: In Sky
-    - _Korok::SSS05:
+    - _Korok::SSS05::Trail:
        notes: In Sky
     - _Item<SSS04 Start>:
        coord: [2404,1500,-1818]
        notes: In Sky
     - _Korok::SSS04:
        notes: In Sky
-    - _Korok::SSS02
-    - _Korok::SS60::End
-    - _Korok::RW01
+    - _Korok::SSS02:
+       notes: In Sky
+    - _Korok::SS65:
+       notes: Hard to see, but is at fort hateno. DO NOT FORGET
+    - _Korok::SS62:
+       notes: Hard to see, but is at fort hateno. DO NOT FORGET
     - _Korok::RW02
     - _Korok::RW04
     - _Korok::RW06
-    - _Korok::RW08
+    - _Korok::RW08::Trail
     - _Korok::RW11
     - _Korok::RW13
     - _Korok::RW15
@@ -766,13 +770,10 @@ _route:
     - _Korok::ML32
     - _Korok::ML27
     - _Korok::RW03
+    - _Korok::ML24::Start
+    - _Korok::ML24::End
     - _Korok::ML28
-    - _Korok::ML24
     - _Korok::ML18
-    - _Korok::SS65:
-       notes: Hard to see, but is at fort hateno. DO NOT FORGET
-    - _Korok::SS62:
-       notes: Hard to see, but is at fort hateno. DO NOT FORGET
     - _Korok::ML19::Start
     - _Korok::ML16
     - _Korok::ML19::End
@@ -822,7 +823,7 @@ _route:
     - _Korok::GSI03
     - _Korok::GSI01
     - _Korok::GSI02
-    - _Korok::GSI05
+    - _Korok::GSI05::Trail
     - _Korok::GSI06
     - _Korok::GSI10
     - _Korok::GSI09
@@ -844,7 +845,7 @@ _route:
     - _Korok::GC28
     - _Korok::GC18
     - _Korok::GC22::Start
-    - _Korok::GH54
+    - _Korok::GH54::Trail
     - _Korok::GH42
     - _Korok::GH39
     - _Korok::GH36
@@ -880,7 +881,7 @@ _route:
        coord: [-3857,150,-3020]
     - _Korok::GC32
     - _Korok::GC42::Start
-    - _Korok::GC34
+    - _Korok::GC34::Trail
     - _Korok::GC37
     - _Korok::GC35::Start
     - _Korok::GC35::End
@@ -895,7 +896,7 @@ _route:
     - _Korok::GH44
     - _Korok::GH52
     - _Korok::GC07
-    - _Korok::GC14
+    - _Korok::GC14::Trail
     - _Korok::GC17
     - _Korok::GC10
     - _Korok::GC04
@@ -914,7 +915,7 @@ _route:
     - _Korok::GH11
     - _Korok::GH18
     - _Korok::GH26
-    - _Korok::GH20
+    - _Korok::GH20::Trail
     - _Korok::GH15
     - _Item<GH16 Start>:
        coord: [-3714,150,-794]
@@ -935,12 +936,12 @@ _route:
     - _Item<LB49 Start>:
        coord: [-2918,150,289]
     - _Korok::LB49
-    - _Korok::LB50
+    - _Korok::LB50::Trail
     - _Korok::LB48
     - _Korok::LB45
     - _Korok::LB40
     - _Korok::LB37
-    - _Korok::LB46
+    - _Korok::LB46::Trail
     - GAS Launch up to the Next Korok
     - _Korok::GHS01:
        notes: In Sky
@@ -980,7 +981,7 @@ _route:
     - _Korok::RP47
     - _Korok::RP46
     - _Korok::RP45
-    - _Korok::RP50
+    - _Korok::RP50::Trail
     - _Korok::RP49
     - _Korok::RP42
     - _Korok::RP38::Start
@@ -988,7 +989,7 @@ _route:
     - _Korok::RP33
     - _Korok::RP38::End
     - _Korok::RP34
-    - _Korok::RP40
+    - _Korok::RP40::Trail
     - _Korok::RP35
     - _Korok::RP41
     - _Korok::RP44
@@ -996,7 +997,7 @@ _route:
     - _Korok::RP53
     - _Korok::RP56
     - _Korok::RP60
-    - _Korok::LB10
+    - _Korok::LB10::Trail
     - _Korok::LB14
     - _Korok::LB11
     - _Korok::LB09
@@ -1081,7 +1082,7 @@ _route:
     - _Korok::RP11
     - _Korok::RP18
     - _Korok::RP13::Start
-    - _Korok::RP17
+    - _Korok::RP17::Trail
     - _Korok::RP14
     - _Korok::RP16
     - _Korok::RP13::End
@@ -1112,7 +1113,7 @@ _route:
     - Sandwich Slide to the Next 2 Koroks (In Sky)
     - _Korok::PSS03:
        notes: In Sky
-    - _Korok::PSS01:
+    - _Korok::PSS01::Trail:
        notes: In Sky
     - _Korok::PS03
     - _Korok::PS01
@@ -1145,9 +1146,10 @@ _route:
   - Korok ASMR 3:  
     - _Warp::Shrine::Jonsau    
     - _Korok::UZ44::Start
+    - _Korok::UZ44::End
     - _Korok::UZ36
     - _Korok::UZ45
-    - _Korok::UZ41
+    - _Korok::UZ41::Trail
     - _Korok::UZ42
     - _Korok::UZ50::Start
     - _Korok::UZ53
@@ -1155,21 +1157,20 @@ _route:
     - _Korok::UZ56
     - _Korok::UZ52
     - _Korok::UZ51
-    - _Korok::UZ44
     - _Korok::UZ47
     - _Korok::UZ32
     - _Item<UZ26 Start>:
        coord: [2565.75,150,468.5]
     - _Korok::UZ26
     - _Korok::UZ18::Start
-    - _Korok::UZ18
+    - _Korok::UZ18::End
     - _Korok::EC55
     - _Korok::UZ13::Start
     - _Korok::EC52
     - _Korok::EC47
     - _Korok::EC38
     - _Korok::EC40
-    - _Korok::EC34
+    - _Korok::EC34::Trail
     - _Korok::EC54::Start
     - _Korok::EC49
     - _Korok::EC53
@@ -1205,7 +1206,7 @@ _route:
     - _Korok::UZ48
     - _Korok::UZ37::End
     - _Korok::UZ31
-    - _Korok::UZ30
+    - _Korok::UZ30::Trail
     - _Korok::UZ22::Start
     - _Korok::UZ22
     - _Korok::UZ33
@@ -1246,8 +1247,8 @@ _route:
     - GAS Launch for the Next Korok
     - _Korok::UMS03:
        notes: In Sky
-    - _Korok::UM37
-    - _Korok::UZ03
+    - _Korok::UM37::Trail
+    - _Korok::UZ03::Trail
     - _Korok::UM42
     - _Korok::UM39
     - _Korok::UM36
@@ -1280,7 +1281,7 @@ _route:
     - _Korok::UM06
     - _Korok::UM07::Start
     - _Korok::UM07::End
-    - _Korok::UM08
+    - _Korok::UM08::Trail
     - _Korok::UM12
     - _Korok::UM11
     - _Korok::UM16
@@ -1311,7 +1312,7 @@ _route:
     - _Korok::EC10::End
     - _Korok::EC18
     - _Korok::EC23
-    - _Korok::EC22
+    - _Korok::EC22::Trail
     - _Korok::EC24
     - _Korok::EC30
     - _Korok::EC33::Start
