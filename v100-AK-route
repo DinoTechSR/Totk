@@ -395,14 +395,17 @@ _route:
     - _Korok::GC43
     - _Korok::GC44
     - _Korok::PF88
-    - _Korok::PF84
     - _Korok::PF86::Start
-    - _Korok::PF76
+    - _Korok::PF84
+    - _Korok::PF87
+    - _Korok::PF86::End
+    - _Korok::PF85
+    - _Korok::PF80
+    - _Korok::PF73::Start
+    - _Korok::PF73::End
     - _Npc<Beedle>:
         coord: [485.16, 152.78, -3366.72]
         notes: Buy Arrows
-    - _Korok::PF73::Start
-    - _Korok::PF73::End
     - _Korok::PF65
     - _Korok::PF71
     - _Korok::PF55
@@ -451,10 +454,7 @@ _route:
     - _Korok::PF82::End
     - _Korok::PF79::Trail
     - _Korok::PF77
-    - _Korok::PF80
-    - _Korok::PF85
-    - _Korok::PF86::End
-    - _Korok::PF87
+    - _Korok::PF76
     - _Korok::PF68::Start
     - _Korok::PF60
     - _Korok::PF68::End
@@ -1012,6 +1012,7 @@ _route:
     - _Korok::LB38
     - _Korok::LB34
     - _Korok::LB41::Trail
+    - _Korok::LB53::Start
     - _Korok::LB53::End
     - _Korok::LB44
     - _Korok::LB47
