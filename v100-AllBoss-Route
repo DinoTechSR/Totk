@@ -1,3 +1,15 @@
+---
+_config:
+_project:
+  authors:
+    - DinoTechSR
+  contributors:
+    - savageI3
+    - Aergyl
+    - EliasNXKO
+  description: All Shrines for v1.0.0
+  name: v1.0.0 All Shrines v1
+  
 _route:
   - Overview:
     - .link([Splits File] https://drive.google.com/file/d/1UoLfjEajmgWj4O4yNQdigU-5zynmMGLp/view?usp=sharing)
@@ -105,4 +117,8 @@ _route:
     - PRAF back to LL and receive the Paraglider. Use the Broadsword as the rocket holder; do not swing it or it will break.
     - _Tower::LookoutLanding:
        comment: Do NOT Launch from the tower
+    
+       
+       
+       
   
