@@ -98,5 +98,3 @@ _route:
        coord: [-252,150,150.4]
     - _Tower::LookoutLanding:
        comment: Do NOT Launch from the tower
-
-
