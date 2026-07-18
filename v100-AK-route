@@ -19,10 +19,6 @@ _project:
   # To use pocket rocket in a shrine: Grab a shield, drop the shield, and pick up the rocket shield (weapon and shield have to be zuggled out of the shrine)
   # Directionals are combined with other commands at the very beginning (always capitalized)
 _route:
-  - Overview:
-    - .link([Splits File] https://drive.google.com/file/d/1UoLfjEajmgWj4O4yNQdigU-5zynmMGLp/view?usp=sharing)
-    - .link([What Does N< Mean?] https://docs.google.com/drawings/d/1M4rwnU_A8izpY-yLnVToBowt4p-td5o6LXjBdohlwNw/edit?usp=sharing)
-    - Directionals are UNFINISHED! If you would like directionals in your route, DM @DinoTechSR on discord and ill correct them
   - Intro:
     - Perform Intro Clip
   - Great Sky Island:
@@ -59,10 +55,12 @@ _route:
        coord: [745.41, 1650.87, -1368.7]
     - _Material<Bomb Flower>:
        coord: [744.35, 1647.04, -1344.69]
+    - _Material<Brightbloom seed x3>:
+       coord: [743.79, 1648.09, -1344.8]
     - _KeyItem::EnergyCell:
-       comment: Battery Throw
+       comment: Run to the ledge and perform Battery Throw
     - _Shrine::In-isa:
-       notes: Dupe Bomb Shield, 20 bombs, and fuse rock in shrine to weapon (rock MNF) 
+       notes: Dupe Bomb Shield and 30 bombs
     - _Shrine::Ukouh
     - _Location<Temple of Time>:
        coord: [453.51, 1556.17, -849.75]
@@ -125,10 +123,15 @@ _route:
        comment: Do NOT Launch from the tower
   
   - UPR:
-    - _Warp::Shrine::Gutanbac:
-       level: Sky
+    - _Warp::Shrine::Gutanbac
     - .link([Perform UPR] https://docs.google.com/presentation/d/14M4fUh2k582GVtFAb3VmZmG2oJg9q-ATHMdQa80ErYI/edit?usp=sharing)
-    - Map Zuggle 8 MNFs
+    - Map Zuggle 4 Rocket MNFs
+    - _Chest::ArchaicWarmGreaves:
+       level: Sky
+       comment: Equip
+    - Grab Zonai Charge from Corpse to the Left
+ 
+ 
   - To Dragonhead:
     - _Tear::G03
     - _Korok::PF07
@@ -150,7 +153,7 @@ _route:
        notes: dupe 25
     - _Material<Fairy>:
         coord: [926.96, 667.61, -2131.03]
-        notes: In sky, dupe 100
+        notes: In sky, dupe 60
     - _Item<Boulder>:
         coord: [1171.6, 274.68, -2550.12]
         notes: Fuse to Spear (for boulder koroks)
@@ -169,6 +172,7 @@ _route:
   - Dragonhead Sky:
     - _Dispenser::S02:
        level: Sky
+       notes: Dupe 30 carts and 30 sticks
     - _Korok::PFS03
     - _Item<Big Battery>:
         coord: [1041.73, 924.81, -3367.81]
@@ -178,7 +182,7 @@ _route:
   - Plateau Setup:  
     - _Npc<Banana Salesman>:
        coord: [-995,150,-2019]
-       notes: buy 50 bananas, clip to autobuild
+       notes: buy 40 bananas, clip to autobuild
     - .link([Do Jetpack] https://docs.google.com/presentation/d/1xl_yAa2wLSV68cfRu6mfQHc90ALUATcG_oeM9y_4gXM/edit?usp=sharing)
   
   - Korok ASMR 1:
@@ -186,7 +190,7 @@ _route:
        line-color: aqua
        level: Surface
     - _Korok::LL43::Trail
-    - _Item<Treasure Chest>:
+    - _Material<Ruby>:
         coord: [-522.39, 134.69, 312.49]
         notes: Dupe 50
     - _Korok::LL42
