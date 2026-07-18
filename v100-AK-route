@@ -1345,7 +1345,7 @@ _route:
     - _Korok::TR04
     - _Korok::TR03::Start
     - _Korok::TR02::End
-    - _Korok::TR03
+    - _Korok::TR03::End
     - _Korok::TR09::Start
     - _Korok::TR07
     - _Korok::TR09::End
