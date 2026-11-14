@@ -1,0 +1,11 @@
+_config:
+_project: 
+  authors:
+  description: blank
+  name: blank
+  url: ""
+  split: [Shrine, Lightroot, Tower, Temple, UserDefined]
+  version: 3.1
+
+_route:
+  - Blank:
